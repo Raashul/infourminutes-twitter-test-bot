@@ -10,26 +10,30 @@ const User = mongoose.model('users');
 
 
 function checkDb(userData){
-  //console.log(userData.id);
-  let bool_tweetUser;
-  User.find({
-    screenName: userData.user.screen_name
-  }, (err, user) => {
-    if(err){
-      console.log(err);
-    }
-    if(user.length){
-      console.log('dont tweeet this user again')
-      bool_tweetUser = false;
-    }
-    else{
-      console.log('tweet this new user');
-      bool_tweetUser = true;
-    }
-    return bool_tweetUser;
-  })
 
+  // if(typeof callback === 'function'){
+    let bool_tweetUser = true;
+     User.findOne({
+      screenName: userData.user.screen_name
+    }, (err, user) => {
+      console.log('inside index.js');
+      if(err){
+        console.log(err);
+      }
+      if(user === undefined){
+        console.log('dont tweeet this user again')
+        bool_tweetUser = false;
+      }
+      else{
+        console.log('tweet this new user');
+        bool_tweetUser = true;
+      }
+      // callback(bool_tweetUser);
+    })
+    return bool_tweetUser;
+  //}
 }
+
 
 
 function storeUser(userData){

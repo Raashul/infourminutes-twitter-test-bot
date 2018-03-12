@@ -44,20 +44,29 @@ let retweet = () => {
       let tweet = '';
       let hashtagUsed = '';
       snaps.forEach(post => {
-        //Does the user meet the retweet condition
-        const retweet_bool = checkReply.checkToReply(post);
+
+        // let callback = function(bool){
+        //   console.log('inside callback ' + bool);
+        //   return bool;
+        // }
 
         //Does the user exist already in the db?
-        const bool_tweetUser = (mongolab.checkDb(post) == true) ? true: false;
-        console.log(bool_tweetUser);
+        let bool_tweetUser = (mongolab.checkDb(post) == true) ? true: false;
+
+        // console.log(bool_tweetUser);
+
+        //Does the user meet the retweet condition -- check checkReply.js
+        const retweet_bool = checkReply.checkToReply(post);
+
+        // console.log(bool_tweetUser);
 
         //If true: means tweet this user
         if(bool_tweetUser === true){
           console.log('storing' +  ' User ' + post.user.screen_name);
 
-          // //Store the user into the database
+          //Store the user into the database
            mongolab.storeUser(post);
-          
+
           let hashTagsArr = post.entities.hashtags;
           // console.log(hashTagsArr);
           hashTagsArr.forEach(hashtag =>{

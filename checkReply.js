@@ -4,7 +4,9 @@
   2. Check following count friends_count
   3. Check verified
   4. Status count > 500
-  4. Extract id to store it in firebase
+  5. Number of tweets > 1500
+
+  . Extract id to store it in firebase
 */
 let info = require('./info');
 
@@ -15,6 +17,7 @@ function checkToReply(user){
   let bool_followers = (user.user.followers_count > info.MIN_FOLLOWERS) ? true: false;
   let bool_friends = (user.user.friends_count > info.MIN_FRIENDS) ? true: false;
   let bool_verified = (user.user.verifed == true) ? true: false;
+  let bool_status_count = (user.user.statuses_count > 1000) ? true: false;
 
   /*
   If the account is verifed. No need to check other conditions
