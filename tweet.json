@@ -1,18 +1,18 @@
 {
   "statuses": [
     {
-      "created_at": "Mon Mar 12 04:06:17 +0000 2018",
-      "id": 973047501216473100,
-      "id_str": "973047501216473088",
-      "text": "testing #BitcoinRashulBot",
+      "created_at": "Fri Mar 16 05:40:05 +0000 2018",
+      "id": 974520660239138800,
+      "id_str": "974520660239138816",
+      "text": "testing with #BitcoinRashul",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "BitcoinRashulBot",
+            "text": "BitcoinRashul",
             "indices": [
-              8,
-              25
+              13,
+              27
             ]
           }
         ],
@@ -67,16 +67,16 @@
           }
         },
         "protected": false,
-        "followers_count": 126,
-        "friends_count": 236,
+        "followers_count": 123,
+        "friends_count": 238,
         "listed_count": 3,
         "created_at": "Fri Feb 14 16:23:27 +0000 2014",
-        "favourites_count": 591,
+        "favourites_count": 596,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 1726,
+        "statuses_count": 1739,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
@@ -113,25 +113,18 @@
       "lang": "en"
     },
     {
-      "created_at": "Sun Mar 11 23:44:15 +0000 2018",
-      "id": 972981560088694800,
-      "id_str": "972981560088694789",
-      "text": "bot shouldn't tweet this time. #test #EthereumRashulBot",
+      "created_at": "Sun Mar 11 23:24:08 +0000 2018",
+      "id": 972976497953787900,
+      "id_str": "972976497953787904",
+      "text": "test out with #EthereumRashul",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "test",
+            "text": "EthereumRashul",
             "indices": [
-              31,
-              36
-            ]
-          },
-          {
-            "text": "EthereumRashulBot",
-            "indices": [
-              37,
-              55
+              14,
+              29
             ]
           }
         ],
@@ -150,12 +143,12 @@
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 2501739343,
-        "id_str": "2501739343",
-        "name": "Nishanta Baral",
-        "screen_name": "nishanta_baral",
-        "location": "Caldwell, NJ",
-        "description": "Football freak, Manchester Utd addict, and Cristiano Ronaldo aesthete.",
+        "id": 2167862559,
+        "id_str": "2167862559",
+        "name": "Madhu Sujan Paudel",
+        "screen_name": "madhu_sujan",
+        "location": "1 AU",
+        "description": "",
         "url": null,
         "entities": {
           "description": {
@@ -163,34 +156,34 @@
           }
         },
         "protected": false,
-        "followers_count": 1428,
-        "friends_count": 1212,
-        "listed_count": 3,
-        "created_at": "Sat May 17 14:43:31 +0000 2014",
-        "favourites_count": 7824,
+        "followers_count": 139,
+        "friends_count": 106,
+        "listed_count": 4,
+        "created_at": "Mon Nov 04 11:31:19 +0000 2013",
+        "favourites_count": 1390,
         "utc_offset": -25200,
         "time_zone": "Pacific Time (US & Canada)",
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 861,
+        "statuses_count": 1622,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
+        "profile_background_color": "000000",
         "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/791286181631623168/848KBfiS_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/791286181631623168/848KBfiS_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2501739343/1463658998",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/973930831696756736/L6kDCiNi_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/973930831696756736/L6kDCiNi_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2167862559/1489213520",
+        "profile_link_color": "4A913C",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
         "has_extended_profile": true,
-        "default_profile": true,
+        "default_profile": false,
         "default_profile_image": false,
         "following": false,
         "follow_request_sent": false,
@@ -203,108 +196,19 @@
       "contributors": null,
       "is_quote_status": false,
       "retweet_count": 0,
-      "favorite_count": 2,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Sun Mar 11 23:42:48 +0000 2018",
-      "id": 972981196409000000,
-      "id_str": "972981196408999938",
-      "text": "first tweet. bot will reply #BitcoinRashulBot",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "BitcoinRashulBot",
-            "indices": [
-              28,
-              45
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 2501739343,
-        "id_str": "2501739343",
-        "name": "Nishanta Baral",
-        "screen_name": "nishanta_baral",
-        "location": "Caldwell, NJ",
-        "description": "Football freak, Manchester Utd addict, and Cristiano Ronaldo aesthete.",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1428,
-        "friends_count": 1212,
-        "listed_count": 3,
-        "created_at": "Sat May 17 14:43:31 +0000 2014",
-        "favourites_count": 7824,
-        "utc_offset": -25200,
-        "time_zone": "Pacific Time (US & Canada)",
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 861,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/791286181631623168/848KBfiS_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/791286181631623168/848KBfiS_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2501739343/1463658998",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 2,
+      "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "en"
     }
   ],
   "search_metadata": {
-    "completed_in": 0.02,
-    "max_id": 973047501216473100,
-    "max_id_str": "973047501216473088",
-    "query": "%23BitcoinRashulBot+OR+%23EthereumRashulBot+OR+%23CryptoRashul",
-    "refresh_url": "?since_id=973047501216473088&q=%23BitcoinRashulBot%20OR%20%23EthereumRashulBot%20OR%20%23CryptoRashul&lang=en&result_type=recent&include_entities=1",
-    "count": 15,
+    "completed_in": 0.092,
+    "max_id": 974520660239138800,
+    "max_id_str": "974520660239138816",
+    "query": "%23bitcoinRashul+OR+%23ethereumRashul+OR+%23cryptoRashul",
+    "refresh_url": "?since_id=974520660239138816&q=%23bitcoinRashul%20OR%20%23ethereumRashul%20OR%20%23cryptoRashul&lang=en&result_type=recent&include_entities=1",
+    "count": 3,
     "since_id": 0,
     "since_id_str": "0"
   }

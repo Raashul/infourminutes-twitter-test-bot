@@ -10,25 +10,22 @@ let mongolab = require('./mongolab/index');
 
 //set up twitter
 let Twitter = new Twit(config);
-
-
 /*
   Make the twitter app search for tweets every ---- minutes
   Use setInterval method
 */
 
-
 let retweet = () => {
   let params = {
-      q: '#BitcoinRashulBot OR #EthereumRashulBot OR #CryptoRashul',
+      q: '#bitcoinRashul OR #ethereumRashul OR #cryptoRashul',
       result_type: 'recent',
-      lang: 'en'
+      lang: 'en',
+      count: 3 //put 100
   }
 
   Twitter.get('search/tweets', params, function(err, data) {
-
     console.log('starting search');
-    //
+
     let fs = require('fs');
     let json = JSON.stringify(data, null, 2);
     fs.writeFile("tweet.json", json);
@@ -40,56 +37,61 @@ let retweet = () => {
     // if there no errors
     else if (!err) {
       let snaps = data.statuses;
+      console.log(snaps.length);
+
       let tweet_url = '';
       let tweet = '';
       let hashtagUsed = '';
-      snaps.forEach(post => {
+      snaps.forEach(async post => {
 
-        // let callback = function(bool){
-        //   console.log('inside callback ' + bool);
-        //   return bool;
-        // }
+
 
         //Does the user exist already in the db?
-        let bool_tweetUser = (mongolab.checkDb(post) == true) ? true: false;
-
-        // console.log(bool_tweetUser);
+        let bool_tweetUser = (await mongolab.checkDb(post));
+        console.log('bool_tweetUser', bool_tweetUser);
 
         //Does the user meet the retweet condition -- check checkReply.js
         const retweet_bool = checkReply.checkToReply(post);
+        console.log('retweet_bool', retweet_bool);
 
         // console.log(bool_tweetUser);
 
         //If true: means tweet this user
-        if(bool_tweetUser === true){
+        if(bool_tweetUser === true && retweet_bool === true){
           console.log('storing' +  ' User ' + post.user.screen_name);
 
           //Store the user into the database
-           mongolab.storeUser(post);
+          mongolab.storeUser(post);
 
           let hashTagsArr = post.entities.hashtags;
           // console.log(hashTagsArr);
           hashTagsArr.forEach(hashtag =>{
 
             //Can be done in a better way.
-            //: make separate file then extract key words from that file
-            if(hashtag.text == 'BitcoinRashulBot'){
+            //TODO: make separate file then extract key words from that file
+            if(hashtag.text == 'bitcoinRashul' || hashtag.text == 'BitcoinRashul' ){
               hashtagUsed  = "Bitcoin"
               tweet_url = 'http://infourminutes.co/whitepaper/bitcoin'
 
             }
-            else if (hashtag.text == 'EthereumRashulBot'){
+            else if (hashtag.text == 'EthereumRashul' || hashtag.text == 'ethereumRashul'){
               hashtagUsed  = "Ethereum"
               tweet_url = 'http://infourminutes.co/whitepaper/ethereum'
             }
 
-            else if(hashtag.text == 'CryptoRashul'){
+            else if(hashtag.text == 'CryptoRashul' || hashtag.text == 'cryptoRashul'){
               hashtagUsed  = "Crypto"
               tweet_url = 'http://infourminutes.co/whitepaper'
-
             }
+            else{
+              hashtagUsed = "cryptocurrency"
+              tweet_url = 'http://infourminutes.co/whitepaper'
+            }
+
             let screen_name = post.user.screen_name;
             let hashtagText = hashtag.text;
+
+            //Post Tweet method
             postTweet(screen_name, hashtagUsed, tweet_url);
           }) //end of foreach
         }
@@ -115,8 +117,8 @@ retweet();
 //callback function to post tweet
   function postTweet(screen_name, hashtagUsed, tweet_url){
     let tweet = {
-      status: 'Hey ' + '@' + screen_name + ' ' + 'saw your tweet about ' + hashtagUsed + ' ' +
-      'Check out ' + tweet_url + ' to read summaries of a whitepaper in four minutes'
+      status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
+      'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed.
     }
 
     Twitter.post('statuses/update', tweet, (err, data, response) => {
@@ -145,7 +147,8 @@ retweet();
     let name = event.source.name;
     let screenName = event.source.screen_name;
     let pageUrl = 'http://infourminutes.co/';
+
     Follow.tweetNow(Twitter,
-      'Hey ' + '@' + screenName + ' ' + 'Thanks for following a test twiter bot for http://infourminutes.co/' +
-    ' Check out ' + pageUrl + ' to read summaries of a whitepaper in four minutes');
+      'Hey ' + '@' + screenName + '. ' + 'Thanks for following a twiter bot for http://infourminutes.co/' +
+    ' Check out ' + pageUrl + ' to understand the core fundamentals of different cryptocurrencies.');
   }

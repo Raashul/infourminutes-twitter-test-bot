@@ -8,32 +8,58 @@ mongoose.connect(config.mongoURI);
 const User = mongoose.model('users');
 
 
-
 function checkDb(userData){
-
-  // if(typeof callback === 'function'){
-    let bool_tweetUser = true;
+  return new Promise( (resolve, reject) => {
      User.findOne({
       screenName: userData.user.screen_name
     }, (err, user) => {
       console.log('inside index.js');
-      if(err){
-        console.log(err);
+      if(err) {
+        reject(err);
       }
-      if(user === undefined){
-        console.log('dont tweeet this user again')
-        bool_tweetUser = false;
-      }
-      else{
+      if(user === null) {
         console.log('tweet this new user');
-        bool_tweetUser = true;
+        resolve(true);
+      } else {
+        console.log('dont tweeet this user again')
+        resolve(false);
       }
-      // callback(bool_tweetUser);
+
     })
-    return bool_tweetUser;
-  //}
+  });
 }
 
+    // if(res){
+    //   console.log('user found');
+    //   bool_tweetUser = true;
+    // }
+    // else{
+    //   console.log('user not found');
+    //   bool_tweetUser = false;
+    // }
+    // return bool_tweetUser;
+    // resolve(bool_tweetUser);
+
+
+    //   User.findOne({
+    //   screenName: userData.user.screen_name
+    // },  (err, user) => {
+    //   console.log('inside index.js');
+    //   if(err){
+    //     console.log(err);
+    //   }
+    //   if(user === undefined){
+    //     console.log('dont tweeet this user again')
+    //     bool_tweetUser = false;
+    //   }
+    //   else{
+    //     console.log('tweet this new user');
+    //     bool_tweetUser = true;
+    //   }
+    //   // callback(bool_tweetUser);
+    //   resolve(bool_tweetUser);
+    // })
+//}
 
 
 function storeUser(userData){
