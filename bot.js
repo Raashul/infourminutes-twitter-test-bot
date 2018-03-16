@@ -26,24 +26,21 @@ let retweet = () => {
   }
 
   Twitter.get('search/tweets', params, function(err, data) {
-
     console.log('starting search');
     //
     let fs = require('fs');
     let json = JSON.stringify(data, null, 2);
     fs.writeFile("tweet.json", json);
 
-    if(err){
+    if(err) {
       console.log(err);
       return;
-    }
-    // if there no errors
-    else if (!err) {
+    } else if (!err) {
       let snaps = data.statuses;
       let tweet_url = '';
       let tweet = '';
       let hashtagUsed = '';
-      snaps.forEach(post => {
+      snaps.forEach(async post => {
 
         // let callback = function(bool){
         //   console.log('inside callback ' + bool);
@@ -51,7 +48,7 @@ let retweet = () => {
         // }
 
         //Does the user exist already in the db?
-        let bool_tweetUser = (mongolab.checkDb(post) == true) ? true: false;
+        let bool_tweetUser = (await mongolab.checkDb(post) == true) ? true: false;
 
         // console.log(bool_tweetUser);
 
@@ -99,12 +96,12 @@ let retweet = () => {
       });
 
     }
-      // if unable to Search a tweet
-      else {
-        console.log('Something went wrong while SEARCHING...');
-      }
+    // if unable to Search a tweet
+    else {
+      console.log('Something went wrong while SEARCHING...');
+    }
   });
-  }
+}
 
 //Run the bot every one hour
 // setInterval(retweet, 1000*60*60);
