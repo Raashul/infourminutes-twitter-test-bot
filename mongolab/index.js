@@ -39,7 +39,10 @@ function storeUser(userData){
     twitterId: userData.id,
     screenName: userData.user.screen_name,
     name: userData.user.name,
-    tweet: userData.text
+    tweet: userData.text,
+    followers: userData.user.followers_count,
+    following: userData.user.friends_count,
+    statuses: userData.user.statuses_count
   })
 
   user.save((err) => {

@@ -6,7 +6,10 @@ const {Schema} = mongoose;
    twitterId: String,
    screenName: String,
    name: String,
-   tweet: String
+   tweet: String,
+   followers: String,
+   following: String,
+   statuses: String
  });
 
 

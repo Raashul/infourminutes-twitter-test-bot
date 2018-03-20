@@ -21,14 +21,10 @@ let Twitter = new Twit(config);
 let retweet = () => {
 
   let params = info.params;
-
   Twitter.get('search/tweets', params, function(err, data) {
 
     console.log('starting search');
 
-    let fs = require('fs');
-    let json = JSON.stringify(data, null, 2);
-    fs.writeFile("tweet.json", json);
 
     if(err){
       console.log(err);
@@ -61,41 +57,51 @@ let retweet = () => {
         //max = findMaxIdOfTweets(post, max_id);
 
         //find the min id for tweets
-        params.min_id = findMinIdOfTweets(post, params.max_id);
+        //params.min_id = findMinIdOfTweets(post, params.max_id);
 
         //If true: means tweet this user
 
         if(bool_tweetUser === true && retweet_bool === true){
+
+          // let fs = require('fs');
+          // let json = JSON.stringify(data, null, 2);
+          // fs.writeFile("tweet.json", json);
+
           //console.log('storing' +  ' User ' + post.user.screen_name);
 
           //Store the user into the database
           mongolab.storeUser(post);
 
           let hashTagsArr = post.entities.hashtags;
+          let tweet = '';
           // console.log(hashTagsArr);
-          hashTagsArr.forEach(hashtag =>{
+          for(hashtag of hashTagsArr){
 
-            let tweet = '';
+
             let hashtagText = hashtag.text;
 
             //Can be done in a better way.
             //TODO: make separate file then extract key words from that file
-            if(hashtag.text == 'bitcoin' && hashtag.text == 'Bitcoin' ){
+            if(hashtag.text == 'bitcoin' || hashtag.text == 'Bitcoin'){
               hashtagUsed  = "Bitcoin";
               tweet_url = 'http://infourminutes.co/whitepaper/bitcoin';
               tweet = {
                 status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
                 'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
               }
+
+              break;
             }
 
-            else if (hashtag.text == 'ethereum' || hashtag.text == 'Ethereum'){
+            else if (hashtag.text == 'ethereum' || hashtag.text == 'EthereumRR'){
+              console.log('asda');
               hashtagUsed  = "Ethereum"
               tweet_url = 'http://infourminutes.co/whitepaper/ethereum';
                tweet = {
                 status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
                 'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
               }
+              break;
             }
 
             else if (hashtag.text == 'ripple' || hashtag.text == 'Ripple'){
@@ -105,6 +111,7 @@ let retweet = () => {
                 status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
                 'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
               }
+              break;
             }
 
             else if (hashtag.text == 'dash' || hashtag.text == 'Dash'){
@@ -114,6 +121,7 @@ let retweet = () => {
                 status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
                 'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
               }
+              break;
             }
 
             else{
@@ -123,14 +131,15 @@ let retweet = () => {
                 ' Check out ' + tweet_url + ' to understand the core fundamentals of different cryptocurrencies'
               }
             }
+          }
 
-            //Post Tweet method
-            postTweet(screen_name, hashtagUsed, tweet_url, tweet);
-          }) //end of foreach
+          //Post Tweet method
+          //postTweet(screen_name, hashtagUsed, tweet_url, tweet);
         }
         else{
           console.log('already tweeted this user');
         }
+
       });
 
     }
@@ -142,7 +151,8 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-setInterval(retweet, 1000*60*2);
+setInterval(retweet, 1000*60*60);
+
 //retweet();
 
 
