@@ -8,22 +8,22 @@ let Follow = require('./follow');
 let checkReply = require('./checkReply');
 let mongolab = require('./mongolab/index');
 
+let info = require('./info');
+
 //set up twitter
 let Twitter = new Twit(config);
+
 /*
   Make the twitter app search for tweets every ---- minutes
   Use setInterval method
 */
 
 let retweet = () => {
-  let params = {
-      q: '#bitcoinRashul OR #ethereumRashul OR #cryptoRashul',
-      result_type: 'recent',
-      lang: 'en',
-      count: 3 //put 100
-  }
+
+  let params = info.params;
 
   Twitter.get('search/tweets', params, function(err, data) {
+
     console.log('starting search');
 
     let fs = require('fs');
@@ -42,23 +42,31 @@ let retweet = () => {
       let tweet_url = '';
       let tweet = '';
       let hashtagUsed = '';
+
       snaps.forEach(async post => {
 
-
+        let screen_name = post.user.screen_name;
 
         //Does the user exist already in the db?
         let bool_tweetUser = (await mongolab.checkDb(post));
-        console.log('bool_tweetUser', bool_tweetUser);
+        //console.log('bool_tweetUser', bool_tweetUser);
 
         //Does the user meet the retweet condition -- check checkReply.js
         const retweet_bool = checkReply.checkToReply(post);
-        console.log('retweet_bool', retweet_bool);
+        //console.log('retweet_bool', retweet_bool);
 
         // console.log(bool_tweetUser);
 
+        //find the max id
+        //max = findMaxIdOfTweets(post, max_id);
+
+        //find the min id for tweets
+        params.min_id = findMinIdOfTweets(post, params.max_id);
+
         //If true: means tweet this user
+
         if(bool_tweetUser === true && retweet_bool === true){
-          console.log('storing' +  ' User ' + post.user.screen_name);
+          //console.log('storing' +  ' User ' + post.user.screen_name);
 
           //Store the user into the database
           mongolab.storeUser(post);
@@ -67,32 +75,57 @@ let retweet = () => {
           // console.log(hashTagsArr);
           hashTagsArr.forEach(hashtag =>{
 
-            //Can be done in a better way.
-            //TODO: make separate file then extract key words from that file
-            if(hashtag.text == 'bitcoinRashul' || hashtag.text == 'BitcoinRashul' ){
-              hashtagUsed  = "Bitcoin"
-              tweet_url = 'http://infourminutes.co/whitepaper/bitcoin'
-
-            }
-            else if (hashtag.text == 'EthereumRashul' || hashtag.text == 'ethereumRashul'){
-              hashtagUsed  = "Ethereum"
-              tweet_url = 'http://infourminutes.co/whitepaper/ethereum'
-            }
-
-            else if(hashtag.text == 'CryptoRashul' || hashtag.text == 'cryptoRashul'){
-              hashtagUsed  = "Crypto"
-              tweet_url = 'http://infourminutes.co/whitepaper'
-            }
-            else{
-              hashtagUsed = "cryptocurrency"
-              tweet_url = 'http://infourminutes.co/whitepaper'
-            }
-
-            let screen_name = post.user.screen_name;
+            let tweet = '';
             let hashtagText = hashtag.text;
 
+            //Can be done in a better way.
+            //TODO: make separate file then extract key words from that file
+            if(hashtag.text == 'bitcoin' && hashtag.text == 'Bitcoin' ){
+              hashtagUsed  = "Bitcoin";
+              tweet_url = 'http://infourminutes.co/whitepaper/bitcoin';
+              tweet = {
+                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
+                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
+              }
+            }
+
+            else if (hashtag.text == 'ethereum' || hashtag.text == 'Ethereum'){
+              hashtagUsed  = "Ethereum"
+              tweet_url = 'http://infourminutes.co/whitepaper/ethereum';
+               tweet = {
+                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
+                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
+              }
+            }
+
+            else if (hashtag.text == 'ripple' || hashtag.text == 'Ripple'){
+              hashtagUsed  = "ripple"
+              tweet_url = 'http://infourminutes.co/whitepaper/ripple';
+               tweet = {
+                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
+                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
+              }
+            }
+
+            else if (hashtag.text == 'dash' || hashtag.text == 'Dash'){
+              hashtagUsed  = "dash"
+              tweet_url = 'http://infourminutes.co/whitepaper/dash';
+               tweet = {
+                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
+                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
+              }
+            }
+
+            else{
+              tweet_url = 'http://infourminutes.co/whitepaper'
+              tweet = {
+                status: 'Hey ' + '@' + screen_name + ' ! Saw that you were interested about cryptocurrencies' +
+                ' Check out ' + tweet_url + ' to understand the core fundamentals of different cryptocurrencies'
+              }
+            }
+
             //Post Tweet method
-            postTweet(screen_name, hashtagUsed, tweet_url);
+            postTweet(screen_name, hashtagUsed, tweet_url, tweet);
           }) //end of foreach
         }
         else{
@@ -109,17 +142,12 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-// setInterval(retweet, 1000*60*60);
-
-retweet();
+setInterval(retweet, 1000*60*2);
+//retweet();
 
 
 //callback function to post tweet
-  function postTweet(screen_name, hashtagUsed, tweet_url){
-    let tweet = {
-      status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
-      'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed.
-    }
+  function postTweet(screen_name, hashtagUsed, tweet_url,tweet){
 
     Twitter.post('statuses/update', tweet, (err, data, response) => {
       if(err){
@@ -131,6 +159,15 @@ retweet();
     })
 
   }
+
+
+  function findMinIdOfTweets(tweet, currentMin){
+    console.log('currentMin', currentMin);
+    let min =  Math.min(currentMin, tweet.id);
+    console.log('new min', min);
+    return min;
+  }
+
 
   //If someone follows the account
   let stream = Twitter.stream('user');

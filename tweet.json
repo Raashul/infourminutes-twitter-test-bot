@@ -1,50 +1,145 @@
 {
   "statuses": [
     {
-      "created_at": "Fri Mar 16 05:40:05 +0000 2018",
-      "id": 974520660239138800,
-      "id_str": "974520660239138816",
-      "text": "testing with #BitcoinRashul",
+      "created_at": "Mon Mar 19 23:51:39 +0000 2018",
+      "id": 975882522507739100,
+      "id_str": "975882522507739136",
+      "text": "I am a self-taught programmer. After a year of self-study, I learn https://t.co/WkavVPNyhe #Cybersecurity #Bitcoin https://t.co/Kn8oE8aCiI",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "BitcoinRashul",
+            "text": "Cybersecurity",
             "indices": [
-              13,
-              27
+              91,
+              105
+            ]
+          },
+          {
+            "text": "Bitcoin",
+            "indices": [
+              106,
+              114
             ]
           }
         ],
         "symbols": [],
         "user_mentions": [],
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/WkavVPNyhe",
+            "expanded_url": "http://bit.ly/2tVyzKw",
+            "display_url": "bit.ly/2tVyzKw",
+            "indices": [
+              67,
+              90
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 975882520079294500,
+            "id_str": "975882520079294466",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/DYsH-0fW4AI71WX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DYsH-0fW4AI71WX.jpg",
+            "url": "https://t.co/Kn8oE8aCiI",
+            "display_url": "pic.twitter.com/Kn8oE8aCiI",
+            "expanded_url": "https://twitter.com/CyberDomain/status/975882522507739136/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 393,
+                "h": 500,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 393,
+                "h": 500,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 393,
+                "h": 500,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 975882520079294500,
+            "id_str": "975882520079294466",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/DYsH-0fW4AI71WX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DYsH-0fW4AI71WX.jpg",
+            "url": "https://t.co/Kn8oE8aCiI",
+            "display_url": "pic.twitter.com/Kn8oE8aCiI",
+            "expanded_url": "https://twitter.com/CyberDomain/status/975882522507739136/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 393,
+                "h": 500,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 393,
+                "h": 500,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 393,
+                "h": 500,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
       },
       "metadata": {
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "source": "<a href=\"http://www.ajaymatharu.com/\" rel=\"nofollow\">Tweet Old Post</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 2343807152,
-        "id_str": "2343807152",
-        "name": "Rashul Rajbhandari",
-        "screen_name": "Rashul_Cfc",
-        "location": "New Jersey, USA",
-        "description": "Computer Science Student. Web Development and Football fanatic. \nhttps://t.co/hT7srLOS6r",
-        "url": "https://t.co/UWTYErRFCs",
+        "id": 206789872,
+        "id_str": "206789872",
+        "name": "CyberWarrior",
+        "screen_name": "CyberDomain",
+        "location": "Cyber Domain",
+        "description": "It took only 14 days to decode 9EC4C12949A4F31474F299058CE2B22A #AmazonInfluencer #Cyberwar #CyberSecurity #Intelligence #Pentest #DDoS #Bitcoin #Cryptocurrency",
+        "url": "https://t.co/ilV9n3kbib",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "https://t.co/UWTYErRFCs",
-                "expanded_url": "https://www.linkedin.com/in/rashul-rajbhandari-73a678113",
-                "display_url": "linkedin.com/in/rashul-rajb…",
+                "url": "https://t.co/ilV9n3kbib",
+                "expanded_url": "http://www.tobem.com",
+                "display_url": "tobem.com",
                 "indices": [
                   0,
                   23
@@ -53,46 +148,233 @@
             ]
           },
           "description": {
-            "urls": [
-              {
-                "url": "https://t.co/hT7srLOS6r",
-                "expanded_url": "https://raashul.github.io/portfolio-app/",
-                "display_url": "raashul.github.io/portfolio-app/",
-                "indices": [
-                  65,
-                  88
-                ]
-              }
-            ]
+            "urls": []
           }
         },
         "protected": false,
-        "followers_count": 123,
-        "friends_count": 238,
-        "listed_count": 3,
-        "created_at": "Fri Feb 14 16:23:27 +0000 2014",
-        "favourites_count": 596,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
+        "followers_count": 18477,
+        "friends_count": 10426,
+        "listed_count": 789,
+        "created_at": "Sat Oct 23 18:38:38 +0000 2010",
+        "favourites_count": 65456,
+        "utc_offset": -10800,
+        "time_zone": "Brasilia",
+        "geo_enabled": true,
         "verified": false,
-        "statuses_count": 1739,
+        "statuses_count": 855454,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/375790666/Red_CyberWar.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/375790666/Red_CyberWar.jpg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000411792856/f5d208cfa54a8ed9dc83a7144c9f4b7b_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000411792856/f5d208cfa54a8ed9dc83a7144c9f4b7b_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/206789872/1415493225",
+        "profile_link_color": "990000",
+        "profile_sidebar_border_color": "910510",
+        "profile_sidebar_fill_color": "1C1C21",
+        "profile_text_color": "FCFCFC",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Mar 19 23:51:37 +0000 2018",
+      "id": 975882515683700700,
+      "id_str": "975882515683700737",
+      "text": "Tallinn Manual 2.0 expands on the highly influential first edition https://t.co/gkoeq6gUcL #Cybersecurity #Bitcoin https://t.co/5BMIiDUiQ8",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Cybersecurity",
+            "indices": [
+              91,
+              105
+            ]
+          },
+          {
+            "text": "Bitcoin",
+            "indices": [
+              106,
+              114
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/gkoeq6gUcL",
+            "expanded_url": "http://bit.ly/2vxKCCU",
+            "display_url": "bit.ly/2vxKCCU",
+            "indices": [
+              67,
+              90
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 975882512688918500,
+            "id_str": "975882512688918529",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/DYsH-Y9WsAEvA_R.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DYsH-Y9WsAEvA_R.jpg",
+            "url": "https://t.co/5BMIiDUiQ8",
+            "display_url": "pic.twitter.com/5BMIiDUiQ8",
+            "expanded_url": "https://twitter.com/CyberToolsBooks/status/975882515683700737/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 314,
+                "h": 500,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 314,
+                "h": 500,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 314,
+                "h": 500,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 975882512688918500,
+            "id_str": "975882512688918529",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/DYsH-Y9WsAEvA_R.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DYsH-Y9WsAEvA_R.jpg",
+            "url": "https://t.co/5BMIiDUiQ8",
+            "display_url": "pic.twitter.com/5BMIiDUiQ8",
+            "expanded_url": "https://twitter.com/CyberToolsBooks/status/975882515683700737/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 314,
+                "h": 500,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 314,
+                "h": 500,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 314,
+                "h": 500,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.ajaymatharu.com/\" rel=\"nofollow\">Tweet Old Post</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3875339716,
+        "id_str": "3875339716",
+        "name": "CyberWar Books",
+        "screen_name": "CyberToolsBooks",
+        "location": "Cyber Domain",
+        "description": "",
+        "url": "http://t.co/3tWphGwfDq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/3tWphGwfDq",
+                "expanded_url": "http://tobem.com/cyberwar",
+                "display_url": "tobem.com/cyberwar",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 9330,
+        "friends_count": 7005,
+        "listed_count": 367,
+        "created_at": "Mon Oct 05 23:14:06 +0000 2015",
+        "favourites_count": 69321,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 722754,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
         "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/899150904171139072/NVUkkitu_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/899150904171139072/NVUkkitu_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2343807152/1411891559",
-        "profile_link_color": "ABB8C2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/651377870623780864/yaz5YB-U_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/651377870623780864/yaz5YB-U_normal.png",
+        "profile_link_color": "0056DB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
         "has_extended_profile": false,
         "default_profile": false,
         "default_profile_image": false,
@@ -110,105 +392,18 @@
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Sun Mar 11 23:24:08 +0000 2018",
-      "id": 972976497953787900,
-      "id_str": "972976497953787904",
-      "text": "test out with #EthereumRashul",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "EthereumRashul",
-            "indices": [
-              14,
-              29
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 2167862559,
-        "id_str": "2167862559",
-        "name": "Madhu Sujan Paudel",
-        "screen_name": "madhu_sujan",
-        "location": "1 AU",
-        "description": "",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 139,
-        "friends_count": 106,
-        "listed_count": 4,
-        "created_at": "Mon Nov 04 11:31:19 +0000 2013",
-        "favourites_count": 1390,
-        "utc_offset": -25200,
-        "time_zone": "Pacific Time (US & Canada)",
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 1622,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "000000",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/973930831696756736/L6kDCiNi_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/973930831696756736/L6kDCiNi_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2167862559/1489213520",
-        "profile_link_color": "4A913C",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": false,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
+      "possibly_sensitive": false,
       "lang": "en"
     }
   ],
   "search_metadata": {
-    "completed_in": 0.092,
-    "max_id": 974520660239138800,
-    "max_id_str": "974520660239138816",
-    "query": "%23bitcoinRashul+OR+%23ethereumRashul+OR+%23cryptoRashul",
-    "refresh_url": "?since_id=974520660239138816&q=%23bitcoinRashul%20OR%20%23ethereumRashul%20OR%20%23cryptoRashul&lang=en&result_type=recent&include_entities=1",
-    "count": 3,
+    "completed_in": 0.042,
+    "max_id": 975882526513344500,
+    "max_id_str": "975882526513344500",
+    "next_results": "?max_id=975882515683700736&q=%23bitcoin%20OR%20%23ethereum%20OR%20%23dash%20OR%20%23ripple&lang=en&count=2&include_entities=1&result_type=recent",
+    "query": "%23bitcoin+OR+%23ethereum+OR+%23dash+OR+%23ripple",
+    "refresh_url": "?since_id=975882526513344500&q=%23bitcoin%20OR%20%23ethereum%20OR%20%23dash%20OR%20%23ripple&lang=en&result_type=recent&include_entities=1",
+    "count": 2,
     "since_id": 0,
     "since_id_str": "0"
   }
