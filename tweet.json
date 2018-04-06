@@ -1,0 +1,2112 @@
+{
+  "statuses": [
+    {
+      "created_at": "Fri Apr 06 19:04:15 +0000 2018",
+      "id": 982333180777644000,
+      "id_str": "982333180777644032",
+      "text": "Buy Cryptocurrency With a Bank Card: https://t.co/a5qffOLK1M\n\n#bitcoin #xvg #ignis #binance #coinbase #bch #money… https://t.co/db1ZI0CO7X",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "bitcoin",
+            "indices": [
+              62,
+              70
+            ]
+          },
+          {
+            "text": "xvg",
+            "indices": [
+              71,
+              75
+            ]
+          },
+          {
+            "text": "ignis",
+            "indices": [
+              76,
+              82
+            ]
+          },
+          {
+            "text": "binance",
+            "indices": [
+              83,
+              91
+            ]
+          },
+          {
+            "text": "coinbase",
+            "indices": [
+              92,
+              101
+            ]
+          },
+          {
+            "text": "bch",
+            "indices": [
+              102,
+              106
+            ]
+          },
+          {
+            "text": "money",
+            "indices": [
+              107,
+              113
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/a5qffOLK1M",
+            "expanded_url": "https://bit.ly/2pNlhQy",
+            "display_url": "bit.ly/2pNlhQy",
+            "indices": [
+              37,
+              60
+            ]
+          },
+          {
+            "url": "https://t.co/db1ZI0CO7X",
+            "expanded_url": "https://twitter.com/i/web/status/982333180777644032",
+            "display_url": "twitter.com/i/web/status/9…",
+            "indices": [
+              115,
+              138
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 975745670392008700,
+        "id_str": "975745670392008705",
+        "name": "Trading Crypto",
+        "screen_name": "Trading_IQ",
+        "location": "",
+        "description": "Buy Cryptocurrency With a Bank Card:",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 14,
+        "friends_count": 15,
+        "listed_count": 2,
+        "created_at": "Mon Mar 19 14:47:51 +0000 2018",
+        "favourites_count": 43,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 44,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/975746586021113857/fpFiJnC4_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/975746586021113857/fpFiJnC4_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/975745670392008705/1521471137",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:14 +0000 2018",
+      "id": 982333177221009400,
+      "id_str": "982333177221009409",
+      "text": "RT @CryptoETHNEWS: next coin that will give u profit is -Banyan Network (BBN) Long term project with Mid term profit making ability. info f…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "CryptoETHNEWS",
+            "name": "Crypto News",
+            "id": 980365013092388900,
+            "id_str": "980365013092388865",
+            "indices": [
+              3,
+              17
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 982330781631729700,
+        "id_str": "982330781631729665",
+        "name": "bertie",
+        "screen_name": "bertie59807308",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1,
+        "friends_count": 40,
+        "listed_count": 0,
+        "created_at": "Fri Apr 06 18:54:43 +0000 2018",
+        "favourites_count": 2,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 13,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/982331795940216833/hA6IfrD__normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/982331795940216833/hA6IfrD__normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 06 13:10:28 +0000 2018",
+        "id": 982244144960557000,
+        "id_str": "982244144960557060",
+        "text": "next coin that will give u profit is -Banyan Network (BBN) Long term project with Mid term profit making ability. i… https://t.co/q0ReJLKUdU",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/q0ReJLKUdU",
+              "expanded_url": "https://twitter.com/i/web/status/982244144960557060",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 980365013092388900,
+          "id_str": "980365013092388865",
+          "name": "Crypto News",
+          "screen_name": "CryptoETHNEWS",
+          "location": "USA",
+          "description": "Analytics and cryptocurrency news",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 221,
+          "friends_count": 51,
+          "listed_count": 0,
+          "created_at": "Sun Apr 01 08:43:28 +0000 2018",
+          "favourites_count": 20,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 49,
+          "lang": "ru",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/980638137356640257/jeu3Md3n_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/980638137356640257/jeu3Md3n_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/980365013092388865/1522969195",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 59,
+        "favorite_count": 9,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 59,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:14 +0000 2018",
+      "id": 982333175346049000,
+      "id_str": "982333175346049024",
+      "text": "RT @PeerMountain: Peer Mountain team is currently attending C3 Cryptoconference in Berlin! Bringing together #crypto experts, investors, #b…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "crypto",
+            "indices": [
+              109,
+              116
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "PeerMountain",
+            "name": "Peer Mountain",
+            "id": 917342044565143600,
+            "id_str": "917342044565143560",
+            "indices": [
+              3,
+              16
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 907683490245865500,
+        "id_str": "907683490245865472",
+        "name": "Owen Lyman",
+        "screen_name": "carelesscheesec",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 665,
+        "friends_count": 1071,
+        "listed_count": 1,
+        "created_at": "Tue Sep 12 19:13:02 +0000 2017",
+        "favourites_count": 915,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2768,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/934689478278447105/L8FXcbZa_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/934689478278447105/L8FXcbZa_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Apr 05 09:42:59 +0000 2018",
+        "id": 981829546268921900,
+        "id_str": "981829546268921856",
+        "text": "Peer Mountain team is currently attending C3 Cryptoconference in Berlin! Bringing together #crypto experts, investo… https://t.co/zqPYHogiyK",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "crypto",
+              "indices": [
+                91,
+                98
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/zqPYHogiyK",
+              "expanded_url": "https://twitter.com/i/web/status/981829546268921856",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 917342044565143600,
+          "id_str": "917342044565143560",
+          "name": "Peer Mountain",
+          "screen_name": "PeerMountain",
+          "location": "",
+          "description": "#blockchain-based software platform focused on giving individuals secure ownership of their personal data #digitalidentity #ownyourowndata",
+          "url": "https://t.co/VT16aj85Q9",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/VT16aj85Q9",
+                  "expanded_url": "http://www.peermountain.com/",
+                  "display_url": "peermountain.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 3383,
+          "friends_count": 732,
+          "listed_count": 44,
+          "created_at": "Mon Oct 09 10:52:41 +0000 2017",
+          "favourites_count": 1196,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 1336,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/917349185103556608/Ch3wMBLi_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/917349185103556608/Ch3wMBLi_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/917342044565143560/1516015479",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 398,
+        "favorite_count": 144,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 398,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:13 +0000 2018",
+      "id": 982333170380030000,
+      "id_str": "982333170380029952",
+      "text": "How to Buy #StellarXLM - April 2018 - https://t.co/6M9BcJpTRW #BuyingGuides #Cryptocurrency #Crypto #altcoin… https://t.co/megmpMsJwy",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "StellarXLM",
+            "indices": [
+              11,
+              22
+            ]
+          },
+          {
+            "text": "BuyingGuides",
+            "indices": [
+              62,
+              75
+            ]
+          },
+          {
+            "text": "Cryptocurrency",
+            "indices": [
+              76,
+              91
+            ]
+          },
+          {
+            "text": "Crypto",
+            "indices": [
+              92,
+              99
+            ]
+          },
+          {
+            "text": "altcoin",
+            "indices": [
+              100,
+              108
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/6M9BcJpTRW",
+            "expanded_url": "https://www.guidetocrypto.com/stellar-xlm/buy-stellar-xlm-april-2018/",
+            "display_url": "guidetocrypto.com/stellar-xlm/bu…",
+            "indices": [
+              38,
+              61
+            ]
+          },
+          {
+            "url": "https://t.co/megmpMsJwy",
+            "expanded_url": "https://twitter.com/i/web/status/982333170380029952",
+            "display_url": "twitter.com/i/web/status/9…",
+            "indices": [
+              110,
+              133
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://www.guidetocrypto.com/\" rel=\"nofollow\">GuideToCrypto.com</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 940270021237805000,
+        "id_str": "940270021237805058",
+        "name": "Guide to Crypto",
+        "screen_name": "RealCryptoGuide",
+        "location": "San Francisco, CA",
+        "description": "The ultimate guides to each cryptocurrency.",
+        "url": "https://t.co/LwtvGQfdCs",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/LwtvGQfdCs",
+                "expanded_url": "https://www.guidetocrypto.com/",
+                "display_url": "guidetocrypto.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 103,
+        "friends_count": 31,
+        "listed_count": 4,
+        "created_at": "Mon Dec 11 17:20:17 +0000 2017",
+        "favourites_count": 30,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 956,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/940270794784915456/R-jiwQHj_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/940270794784915456/R-jiwQHj_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/940270021237805058/1513013018",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:13 +0000 2018",
+      "id": 982333170346614800,
+      "id_str": "982333170346614784",
+      "text": "RT @DAGTofficial: Come and join us on Bitcointalk https://t.co/XyvMryjr8r #blockchain #ethereum #DAGT #loan #lending",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "blockchain",
+            "indices": [
+              74,
+              85
+            ]
+          },
+          {
+            "text": "ethereum",
+            "indices": [
+              86,
+              95
+            ]
+          },
+          {
+            "text": "DAGT",
+            "indices": [
+              96,
+              101
+            ]
+          },
+          {
+            "text": "loan",
+            "indices": [
+              102,
+              107
+            ]
+          },
+          {
+            "text": "lending",
+            "indices": [
+              108,
+              116
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "DAGTofficial",
+            "name": "DAGT",
+            "id": 956451425248096300,
+            "id_str": "956451425248096256",
+            "indices": [
+              3,
+              16
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/XyvMryjr8r",
+            "expanded_url": "https://bitcointalk.org/index.php?topic=3231867.msg33639229#msg33639229",
+            "display_url": "bitcointalk.org/index.php?topi…",
+            "indices": [
+              50,
+              73
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 888433285730381800,
+        "id_str": "888433285730381825",
+        "name": "dolor enriquez",
+        "screen_name": "dolorenriquez1",
+        "location": "Philippines ",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 738,
+        "friends_count": 1727,
+        "listed_count": 4,
+        "created_at": "Fri Jul 21 16:19:36 +0000 2017",
+        "favourites_count": 828,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1323,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/970720286654939136/yfPou-tl_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/970720286654939136/yfPou-tl_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/888433285730381825/1518122839",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Apr 02 07:05:26 +0000 2018",
+        "id": 980702732330741800,
+        "id_str": "980702732330741760",
+        "text": "Come and join us on Bitcointalk https://t.co/XyvMryjr8r #blockchain #ethereum #DAGT #loan #lending",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "blockchain",
+              "indices": [
+                56,
+                67
+              ]
+            },
+            {
+              "text": "ethereum",
+              "indices": [
+                68,
+                77
+              ]
+            },
+            {
+              "text": "DAGT",
+              "indices": [
+                78,
+                83
+              ]
+            },
+            {
+              "text": "loan",
+              "indices": [
+                84,
+                89
+              ]
+            },
+            {
+              "text": "lending",
+              "indices": [
+                90,
+                98
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/XyvMryjr8r",
+              "expanded_url": "https://bitcointalk.org/index.php?topic=3231867.msg33639229#msg33639229",
+              "display_url": "bitcointalk.org/index.php?topi…",
+              "indices": [
+                32,
+                55
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 956451425248096300,
+          "id_str": "956451425248096256",
+          "name": "DAGT",
+          "screen_name": "DAGTofficial",
+          "location": "Singapore",
+          "description": "DAGT is a leading decentralized platform which allows holders of blockchain assets to leverage their holdings as collateral for assets guarantee.",
+          "url": "https://t.co/1IHB7aj5ZD",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/1IHB7aj5ZD",
+                  "expanded_url": "http://www.dagt.io",
+                  "display_url": "dagt.io",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 827,
+          "friends_count": 587,
+          "listed_count": 9,
+          "created_at": "Thu Jan 25 08:59:24 +0000 2018",
+          "favourites_count": 6,
+          "utc_offset": -25200,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 38,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/956469075797929984/fNVJIiH9_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/956469075797929984/fNVJIiH9_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/956451425248096256/1516875578",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 117,
+        "favorite_count": 123,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 117,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:13 +0000 2018",
+      "id": 982333169134456800,
+      "id_str": "982333169134456833",
+      "text": "RT @XYOracleNetwork: @XYOracleNetwork and the future of smart cities featured in StartUpBeat in Hong Kong! https://t.co/zMQc27Vy9L #XYONetw…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "XYOracleNetwork",
+            "name": "XYO Network",
+            "id": 952976175374123000,
+            "id_str": "952976175374123008",
+            "indices": [
+              3,
+              19
+            ]
+          },
+          {
+            "screen_name": "XYOracleNetwork",
+            "name": "XYO Network",
+            "id": 952976175374123000,
+            "id_str": "952976175374123008",
+            "indices": [
+              21,
+              37
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/zMQc27Vy9L",
+            "expanded_url": "http://ow.ly/raA830jl8VX",
+            "display_url": "ow.ly/raA830jl8VX",
+            "indices": [
+              107,
+              130
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3214814620,
+        "id_str": "3214814620",
+        "name": "Milass",
+        "screen_name": "luda041109",
+        "location": "",
+        "description": "#btc #bitcoin #altcoin #news #erc20 #trade #coinmarketcap #crypto #ICO #bounty #ВзаимныйФолловинг #ЧитаюВзаимно #followme #follow #Gif #Like",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 8226,
+        "friends_count": 7945,
+        "listed_count": 18,
+        "created_at": "Mon Apr 27 22:24:23 +0000 2015",
+        "favourites_count": 7383,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 7880,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/930463270368137216/NbQaHVN7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/930463270368137216/NbQaHVN7_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3214814620/1508830649",
+        "profile_link_color": "19CF86",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Apr 05 18:53:01 +0000 2018",
+        "id": 981967963233357800,
+        "id_str": "981967963233357825",
+        "text": "@XYOracleNetwork and the future of smart cities featured in StartUpBeat in Hong Kong! https://t.co/zMQc27Vy9L… https://t.co/b1RVfXh9sM",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "XYOracleNetwork",
+              "name": "XYO Network",
+              "id": 952976175374123000,
+              "id_str": "952976175374123008",
+              "indices": [
+                0,
+                16
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/zMQc27Vy9L",
+              "expanded_url": "http://ow.ly/raA830jl8VX",
+              "display_url": "ow.ly/raA830jl8VX",
+              "indices": [
+                86,
+                109
+              ]
+            },
+            {
+              "url": "https://t.co/b1RVfXh9sM",
+              "expanded_url": "https://twitter.com/i/web/status/981967963233357825",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                111,
+                134
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": 952976175374123000,
+        "in_reply_to_user_id_str": "952976175374123008",
+        "in_reply_to_screen_name": "XYOracleNetwork",
+        "user": {
+          "id": 952976175374123000,
+          "id_str": "952976175374123008",
+          "name": "XYO Network",
+          "screen_name": "XYOracleNetwork",
+          "location": "San Diego, CA",
+          "description": "The proof of location protocol that connects the blockchain to the real world  https://t.co/qMfJSoJw5a",
+          "url": "https://t.co/WrGpjtGKFU",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/WrGpjtGKFU",
+                  "expanded_url": "http://xyo.network",
+                  "display_url": "xyo.network",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/qMfJSoJw5a",
+                  "expanded_url": "http://t.me/xyonetwork",
+                  "display_url": "t.me/xyonetwork",
+                  "indices": [
+                    79,
+                    102
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 3328,
+          "friends_count": 16,
+          "listed_count": 66,
+          "created_at": "Mon Jan 15 18:50:00 +0000 2018",
+          "favourites_count": 35,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 78,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/967207889541595136/7OTlNFdF_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/967207889541595136/7OTlNFdF_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/952976175374123008/1519344111",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 197,
+        "favorite_count": 670,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 197,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:12 +0000 2018",
+      "id": 982333168920473600,
+      "id_str": "982333168920473600",
+      "text": "RT @InvestInBrokers: Get ready! Seed sale 04/04/2018!\n\n#seed #Blockchain #token #tokensale #presale #altcoins #ethereum https://t.co/iW6RG7…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "seed",
+            "indices": [
+              55,
+              60
+            ]
+          },
+          {
+            "text": "Blockchain",
+            "indices": [
+              61,
+              72
+            ]
+          },
+          {
+            "text": "token",
+            "indices": [
+              73,
+              79
+            ]
+          },
+          {
+            "text": "tokensale",
+            "indices": [
+              80,
+              90
+            ]
+          },
+          {
+            "text": "presale",
+            "indices": [
+              91,
+              99
+            ]
+          },
+          {
+            "text": "altcoins",
+            "indices": [
+              100,
+              109
+            ]
+          },
+          {
+            "text": "ethereum",
+            "indices": [
+              110,
+              119
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "InvestInBrokers",
+            "name": "Invest in Brokers",
+            "id": 960431115742908400,
+            "id_str": "960431115742908417",
+            "indices": [
+              3,
+              19
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2553729131,
+        "id_str": "2553729131",
+        "name": "Oxlaid's fan page",
+        "screen_name": "weloveoxlaid",
+        "location": "London ",
+        "description": "Get latest news about @oxlaid☀ always hit my link.. Oh you gonna love it..",
+        "url": "https://t.co/Jv854MGqnr",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Jv854MGqnr",
+                "expanded_url": "https://m.soundcloud.com/iamoxlaid/crazy",
+                "display_url": "m.soundcloud.com/iamoxlaid/crazy",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 40,
+        "friends_count": 32,
+        "listed_count": 0,
+        "created_at": "Mon May 19 07:21:43 +0000 2014",
+        "favourites_count": 100,
+        "utc_offset": 3600,
+        "time_zone": "London",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 144,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/911304936201359361/_EwxVkz5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/911304936201359361/_EwxVkz5_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2553729131/1519391152",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 06 11:56:43 +0000 2018",
+        "id": 982225587711311900,
+        "id_str": "982225587711311872",
+        "text": "Get ready! Seed sale 04/04/2018!\n\n#seed #Blockchain #token #tokensale #presale #altcoins #ethereum https://t.co/iW6RG7iqEJ",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "seed",
+              "indices": [
+                34,
+                39
+              ]
+            },
+            {
+              "text": "Blockchain",
+              "indices": [
+                40,
+                51
+              ]
+            },
+            {
+              "text": "token",
+              "indices": [
+                52,
+                58
+              ]
+            },
+            {
+              "text": "tokensale",
+              "indices": [
+                59,
+                69
+              ]
+            },
+            {
+              "text": "presale",
+              "indices": [
+                70,
+                78
+              ]
+            },
+            {
+              "text": "altcoins",
+              "indices": [
+                79,
+                88
+              ]
+            },
+            {
+              "text": "ethereum",
+              "indices": [
+                89,
+                98
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 982225294881796100,
+              "id_str": "982225294881796096",
+              "indices": [
+                99,
+                122
+              ],
+              "media_url": "http://pbs.twimg.com/media/DaGQs57VMAA3CCB.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/DaGQs57VMAA3CCB.jpg",
+              "url": "https://t.co/iW6RG7iqEJ",
+              "display_url": "pic.twitter.com/iW6RG7iqEJ",
+              "expanded_url": "https://twitter.com/InvestInBrokers/status/982225587711311872/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1056,
+                  "h": 1056,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1056,
+                  "h": 1056,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 982225294881796100,
+              "id_str": "982225294881796096",
+              "indices": [
+                99,
+                122
+              ],
+              "media_url": "http://pbs.twimg.com/media/DaGQs57VMAA3CCB.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/DaGQs57VMAA3CCB.jpg",
+              "url": "https://t.co/iW6RG7iqEJ",
+              "display_url": "pic.twitter.com/iW6RG7iqEJ",
+              "expanded_url": "https://twitter.com/InvestInBrokers/status/982225587711311872/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1056,
+                  "h": 1056,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1056,
+                  "h": 1056,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 960431115742908400,
+          "id_str": "960431115742908417",
+          "name": "Invest in Brokers",
+          "screen_name": "InvestInBrokers",
+          "location": "London, England",
+          "description": "The future of your investments",
+          "url": "https://t.co/OdiLFpSGdQ",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/OdiLFpSGdQ",
+                  "expanded_url": "http://investinbrokers.com",
+                  "display_url": "investinbrokers.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 13696,
+          "friends_count": 24,
+          "listed_count": 26,
+          "created_at": "Mon Feb 05 08:33:16 +0000 2018",
+          "favourites_count": 72,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 76,
+          "lang": "en-gb",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/975809577789902848/aH0w31n-_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/975809577789902848/aH0w31n-_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/960431115742908417/1521486077",
+          "profile_link_color": "7188FC",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 767,
+        "favorite_count": 480,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 767,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:12 +0000 2018",
+      "id": 982333167418953700,
+      "id_str": "982333167418953728",
+      "text": "RT @DocumentTailor: Join DocTailor's #Token #AirDrop\n250 #free DOCT #tokens given away to each user #Airdropsnow live! 💸\n\nClick here and jo…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Token",
+            "indices": [
+              37,
+              43
+            ]
+          },
+          {
+            "text": "AirDrop",
+            "indices": [
+              44,
+              52
+            ]
+          },
+          {
+            "text": "free",
+            "indices": [
+              57,
+              62
+            ]
+          },
+          {
+            "text": "tokens",
+            "indices": [
+              68,
+              75
+            ]
+          },
+          {
+            "text": "Airdropsnow",
+            "indices": [
+              100,
+              112
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "DocumentTailor",
+            "name": "doctailor",
+            "id": 944605766404763600,
+            "id_str": "944605766404763649",
+            "indices": [
+              3,
+              18
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3103704617,
+        "id_str": "3103704617",
+        "name": "sergei fedoseef",
+        "screen_name": "yx672015",
+        "location": "смоленск",
+        "description": "yx",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 3723,
+        "friends_count": 1386,
+        "listed_count": 10,
+        "created_at": "Sun Mar 22 06:21:34 +0000 2015",
+        "favourites_count": 3334,
+        "utc_offset": 10800,
+        "time_zone": "Moscow",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3867,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/940495705910726657/MhUgCkr0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/940495705910726657/MhUgCkr0_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3103704617/1513066590",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Apr 01 21:26:06 +0000 2018",
+        "id": 980556936163872800,
+        "id_str": "980556936163872768",
+        "text": "Join DocTailor's #Token #AirDrop\n250 #free DOCT #tokens given away to each user #Airdropsnow live! 💸\n\nClick here an… https://t.co/n1vL5mSw8Q",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Token",
+              "indices": [
+                17,
+                23
+              ]
+            },
+            {
+              "text": "AirDrop",
+              "indices": [
+                24,
+                32
+              ]
+            },
+            {
+              "text": "free",
+              "indices": [
+                37,
+                42
+              ]
+            },
+            {
+              "text": "tokens",
+              "indices": [
+                48,
+                55
+              ]
+            },
+            {
+              "text": "Airdropsnow",
+              "indices": [
+                80,
+                92
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/n1vL5mSw8Q",
+              "expanded_url": "https://twitter.com/i/web/status/980556936163872768",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 944605766404763600,
+          "id_str": "944605766404763649",
+          "name": "doctailor",
+          "screen_name": "DocumentTailor",
+          "location": "Global",
+          "description": "DocTailor is a unique self customizing smart legal contract platform. #smartcontracts #cryptocurrency #ico #tokensale #crowdsale #presale #ethereum #bitcoin",
+          "url": "https://t.co/Zfu8M8z0mG",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/Zfu8M8z0mG",
+                  "expanded_url": "https://www.doctailor.com",
+                  "display_url": "doctailor.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 21658,
+          "friends_count": 3,
+          "listed_count": 155,
+          "created_at": "Sat Dec 23 16:28:59 +0000 2017",
+          "favourites_count": 78,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 257,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/958672293391163393/qnijCJPC_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/958672293391163393/qnijCJPC_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/944605766404763649/1520259830",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 6260,
+        "favorite_count": 7519,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 6260,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Apr 06 19:04:12 +0000 2018",
+      "id": 982333165099454500,
+      "id_str": "982333165099454464",
+      "text": "RT @Potentiam_io: The @Potentiam_io 50% Easter bonus runs out in less than 30 hours. \nDon't miss out on an excellent offer. Join the token…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Potentiam_io",
+            "name": "Potentiam",
+            "id": 897492974380167200,
+            "id_str": "897492974380167168",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "Potentiam_io",
+            "name": "Potentiam",
+            "id": 897492974380167200,
+            "id_str": "897492974380167168",
+            "indices": [
+              22,
+              35
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 397356871,
+        "id_str": "397356871",
+        "name": "Мельников Влад",
+        "screen_name": "Melnikov_Vlad",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 5,
+        "friends_count": 100,
+        "listed_count": 0,
+        "created_at": "Mon Oct 24 15:44:02 +0000 2011",
+        "favourites_count": 35,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 123,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Wed Apr 04 17:21:06 +0000 2018",
+        "id": 981582444221648900,
+        "id_str": "981582444221648896",
+        "text": "The @Potentiam_io 50% Easter bonus runs out in less than 30 hours. \nDon't miss out on an excellent offer. Join the… https://t.co/EVdfWLNYut",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "Potentiam_io",
+              "name": "Potentiam",
+              "id": 897492974380167200,
+              "id_str": "897492974380167168",
+              "indices": [
+                4,
+                17
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/EVdfWLNYut",
+              "expanded_url": "https://twitter.com/i/web/status/981582444221648896",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                116,
+                139
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 897492974380167200,
+          "id_str": "897492974380167168",
+          "name": "Potentiam",
+          "screen_name": "Potentiam_io",
+          "location": "Worldwide",
+          "description": "The No1 Blockchain Music Platform Telegram: https://t.co/xBtPDHdKcC",
+          "url": "https://t.co/iTWYvSoFRS",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/iTWYvSoFRS",
+                  "expanded_url": "http://www.potentiam.io",
+                  "display_url": "potentiam.io",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/xBtPDHdKcC",
+                  "expanded_url": "http://t.me/potentiamgroup",
+                  "display_url": "t.me/potentiamgroup",
+                  "indices": [
+                    44,
+                    67
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 37997,
+          "friends_count": 1,
+          "listed_count": 62,
+          "created_at": "Tue Aug 15 16:19:34 +0000 2017",
+          "favourites_count": 637,
+          "utc_offset": 3600,
+          "time_zone": "London",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 288,
+          "lang": "en-gb",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/957280746959507457/jk-aCQDV_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/957280746959507457/jk-aCQDV_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/897492974380167168/1517068702",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1261,
+        "favorite_count": 746,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1261,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.04,
+    "max_id": 982333180777644000,
+    "max_id_str": "982333180777644032",
+    "query": "%23bitcoin+OR+%23ethereum+OR+%23dash+OR+%23ripple+OR+%23ipfs+OR+%23ssb",
+    "refresh_url": "?since_id=982333180777644032&q=%23bitcoin%20OR%20%23ethereum%20OR%20%23dash%20OR%20%23ripple%20OR%20%23ipfs%20OR%20%23ssb&lang=en&result_type=recent&include_entities=1",
+    "count": 10,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}

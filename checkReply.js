@@ -8,7 +8,7 @@
 
   . Extract id to store it in firebase
 */
-let info = require('./info');
+let info = require('./info/info');
 
 function checkToReply(user){
 

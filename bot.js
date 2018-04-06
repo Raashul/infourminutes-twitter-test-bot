@@ -1,30 +1,26 @@
-console.log('the bot is starting');
+const Twit = require('twit');
+const config = require('./config');
 
-
-let Twit = require('twit');
-let config = require('./config');
-
-let Follow = require('./follow');
-let checkReply = require('./checkReply');
-let mongolab = require('./mongolab/index');
-
-let info = require('./info');
+const Follow = require('./follow');
+const checkReply = require('./checkReply');
+const mongolab = require('./mongolab/index');
+const info = require('./info/info');
+const tweetText = require('./info/index');
 
 //set up twitter
-let Twitter = new Twit(config);
+const Twitter = new Twit(config);
+
+const params = info.params;
 
 /*
   Make the twitter app search for tweets every ---- minutes
   Use setInterval method
 */
-
 let retweet = () => {
+  console.log('the bot is starting');
 
-  let params = info.params;
   Twitter.get('search/tweets', params, function(err, data) {
-
     console.log('starting search');
-
 
     if(err){
       console.log(err);
@@ -44,28 +40,18 @@ let retweet = () => {
         let screen_name = post.user.screen_name;
 
         //Does the user exist already in the db?
-        let bool_tweetUser = (await mongolab.checkDb(post));
-        //console.log('bool_tweetUser', bool_tweetUser);
+        const bool_user_not_in_db = (await mongolab.checkDb(post));
+        //console.log('bool_user_not_in_db', bool_user_not_in_db);
 
         //Does the user meet the retweet condition -- check checkReply.js
-        const retweet_bool = checkReply.checkToReply(post);
-        //console.log('retweet_bool', retweet_bool);
+        const bool_tweet_condition = checkReply.checkToReply(post);
+        //console.log('bool_tweet_condition', bool_tweet_condition);
 
-        // console.log(bool_tweetUser);
+        if(bool_user_not_in_db === true && bool_tweet_condition === true){
 
-        //find the max id
-        //max = findMaxIdOfTweets(post, max_id);
-
-        //find the min id for tweets
-        //params.min_id = findMinIdOfTweets(post, params.max_id);
-
-        //If true: means tweet this user
-
-        if(bool_tweetUser === true && retweet_bool === true){
-
-          // let fs = require('fs');
-          // let json = JSON.stringify(data, null, 2);
-          // fs.writeFile("tweet.json", json);
+          let fs = require('fs');
+          let json = JSON.stringify(data, null, 2);
+          fs.writeFile("tweet.json", json);
 
           //console.log('storing' +  ' User ' + post.user.screen_name);
 
@@ -76,8 +62,6 @@ let retweet = () => {
           let tweet = '';
           // console.log(hashTagsArr);
           for(hashtag of hashTagsArr){
-
-
             let hashtagText = hashtag.text;
 
             //Can be done in a better way.
@@ -85,51 +69,44 @@ let retweet = () => {
             if(hashtag.text == 'bitcoin' || hashtag.text == 'Bitcoin'){
               hashtagUsed  = "Bitcoin";
               tweet_url = 'http://infourminutes.co/whitepaper/bitcoin';
-              tweet = {
-                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
-                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
-              }
-
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
               break;
             }
 
-            else if (hashtag.text == 'ethereum' || hashtag.text == 'EthereumRR'){
+            else if (hashtag.text == 'ethereum' || hashtag.text == 'Ethereum'){
               console.log('asda');
               hashtagUsed  = "Ethereum"
               tweet_url = 'http://infourminutes.co/whitepaper/ethereum';
-               tweet = {
-                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
-                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
-              }
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
+
               break;
             }
 
             else if (hashtag.text == 'ripple' || hashtag.text == 'Ripple'){
               hashtagUsed  = "ripple"
               tweet_url = 'http://infourminutes.co/whitepaper/ripple';
-               tweet = {
-                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
-                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
-              }
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
               break;
             }
 
             else if (hashtag.text == 'dash' || hashtag.text == 'Dash'){
               hashtagUsed  = "dash"
               tweet_url = 'http://infourminutes.co/whitepaper/dash';
-               tweet = {
-                status: 'Hey ' + '@' + screen_name + '! ' + 'saw your tweet about ' + hashtagUsed + '. ' +
-                'Check out ' + tweet_url + ' to understand the core fundamentals of ' + hashtagUsed
-              }
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
+
               break;
             }
 
+            else if (hashtag.text == 'ipfs' || hashtag.text == 'Ipfs'){
+              hashtagUsed  = "ipfs"
+              tweet_url = 'http://infourminutes.co/whitepaper/ipfs';
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
+
+              break;
+            }
             else{
               tweet_url = 'http://infourminutes.co/whitepaper'
-              tweet = {
-                status: 'Hey ' + '@' + screen_name + ' ! Saw that you were interested about cryptocurrencies' +
-                ' Check out ' + tweet_url + ' to understand the core fundamentals of different cryptocurrencies'
-              }
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
             }
           }
 
@@ -151,9 +128,9 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-setInterval(retweet, 1000*60*60);
+//setInterval(retweet, 1000*60*60);
 
-//retweet();
+retweet();
 
 
 //callback function to post tweet
@@ -171,23 +148,13 @@ setInterval(retweet, 1000*60*60);
   }
 
 
-  function findMinIdOfTweets(tweet, currentMin){
-    console.log('currentMin', currentMin);
-    let min =  Math.min(currentMin, tweet.id);
-    console.log('new min', min);
-    return min;
-  }
-
 
   //If someone follows the account
   let stream = Twitter.stream('user');
   stream.on('follow', followed);
-
-
   //Function that gets called once the event is triggered
   function followed(event){
     console.log('follow event is running');
-
     /*
       Get the screen name of the user that followed
     */
