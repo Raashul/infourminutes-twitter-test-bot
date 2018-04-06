@@ -19,7 +19,7 @@ const params = info.params;
 let retweet = () => {
   console.log('the bot is starting');
 
-  Twitter.get('search/tweets', params, function(err, data) {
+  Twitter.get('search/tweets', params, (err, data) => {
     console.log('starting search');
 
     if(err){
@@ -106,7 +106,10 @@ let retweet = () => {
             }
             else{
               tweet_url = 'http://infourminutes.co/whitepaper'
+              hashtagUsed  = "cryptocurrencies"
+              tweet_url = 'http://infourminutes.co';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
+              break;
             }
           }
 
@@ -129,7 +132,6 @@ let retweet = () => {
 
 //Run the bot every one hour
 //setInterval(retweet, 1000*60*60);
-
 retweet();
 
 
@@ -148,21 +150,19 @@ retweet();
   }
 
 
-
   //If someone follows the account
   let stream = Twitter.stream('user');
   stream.on('follow', followed);
   //Function that gets called once the event is triggered
   function followed(event){
-    console.log('follow event is running');
     /*
       Get the screen name of the user that followed
     */
-    let name = event.source.name;
-    let screenName = event.source.screen_name;
-    let pageUrl = 'http://infourminutes.co/';
+    const name = event.source.name;
+    const screenName = event.source.screen_name;
+    const pageUrl = 'http://infourminutes.co/';
 
     Follow.tweetNow(Twitter,
       'Hey ' + '@' + screenName + '. ' + 'Thanks for following a twiter bot for http://infourminutes.co/' +
-    ' Check out ' + pageUrl + ' to understand the core fundamentals of different cryptocurrencies.');
+      ' Feel free to follow @infourminutesco.');
   }
