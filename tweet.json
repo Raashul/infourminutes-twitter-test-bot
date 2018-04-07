@@ -1,971 +1,18 @@
 {
   "statuses": [
     {
-      "created_at": "Fri Apr 06 22:49:01 +0000 2018",
-      "id": 982389744544993300,
-      "id_str": "982389744544993280",
-      "text": "RT @OptiToken: Falling wedge or descending triangle? Join our new informative trade group on Discord to learn more \nhttps://t.co/6lC8jC1IXd…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "OptiToken",
-            "name": "OptiToken",
-            "id": 941314974319816700,
-            "id_str": "941314974319816704",
-            "indices": [
-              3,
-              13
-            ]
-          }
-        ],
-        "urls": [
-          {
-            "url": "https://t.co/6lC8jC1IXd",
-            "expanded_url": "https://discord.gg/4wdEuqk",
-            "display_url": "discord.gg/4wdEuqk",
-            "indices": [
-              116,
-              139
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 907943866464006100,
-        "id_str": "907943866464006145",
-        "name": "Joe Burgess",
-        "screen_name": "robustpatsy",
-        "location": "",
-        "description": "",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 619,
-        "friends_count": 472,
-        "listed_count": 3,
-        "created_at": "Wed Sep 13 12:27:41 +0000 2017",
-        "favourites_count": 800,
-        "utc_offset": -25200,
-        "time_zone": "Pacific Time (US & Canada)",
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 2492,
-        "lang": "ru",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "F5F8FA",
-        "profile_background_image_url": null,
-        "profile_background_image_url_https": null,
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/934699197886074881/X7vFfPGP_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/934699197886074881/X7vFfPGP_normal.jpg",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Apr 06 05:16:56 +0000 2018",
-        "id": 982124979511746600,
-        "id_str": "982124979511746560",
-        "text": "Falling wedge or descending triangle? Join our new informative trade group on Discord to learn more… https://t.co/KIWHVvHvPd",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/KIWHVvHvPd",
-              "expanded_url": "https://twitter.com/i/web/status/982124979511746560",
-              "display_url": "twitter.com/i/web/status/9…",
-              "indices": [
-                101,
-                124
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 941314974319816700,
-          "id_str": "941314974319816704",
-          "name": "OptiToken",
-          "screen_name": "OptiToken",
-          "location": "",
-          "description": "The first hyperdeflationary cryptocurrency.",
-          "url": "https://t.co/hSqm8zwzfy",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/hSqm8zwzfy",
-                  "expanded_url": "https://OptiToken.io",
-                  "display_url": "OptiToken.io",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 2108,
-          "friends_count": 27,
-          "listed_count": 6,
-          "created_at": "Thu Dec 14 14:32:33 +0000 2017",
-          "favourites_count": 1361,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 940,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "000000",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/964642218475704320/aeYmacD6_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/964642218475704320/aeYmacD6_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/941314974319816704/1518824505",
-          "profile_link_color": "1B95E0",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "000000",
-          "profile_text_color": "000000",
-          "profile_use_background_image": false,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 356,
-        "favorite_count": 209,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 356,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Fri Apr 06 22:49:00 +0000 2018",
-      "id": 982389739775967200,
-      "id_str": "982389739775967233",
-      "text": "RT @datareum: We are listed on:  https://t.co/ukySZBqnLC\n#bitcoin #tokens #BTC #EOS #Airdrops #freetoken #Coins #ICO #BountyProgram #bounty…",
+      "created_at": "Sat Apr 07 16:27:26 +0000 2018",
+      "id": 982656103015178200,
+      "id_str": "982656103015178241",
+      "text": "RT @bethereumteam: #eSports are in our roadmap for the Q1 of 2019! 🎮\nThey are among the fastest growing and largest markets in the world.\nW…",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "bitcoin",
-            "indices": [
-              57,
-              65
-            ]
-          },
-          {
-            "text": "tokens",
-            "indices": [
-              66,
-              73
-            ]
-          },
-          {
-            "text": "BTC",
-            "indices": [
-              74,
-              78
-            ]
-          },
-          {
-            "text": "EOS",
-            "indices": [
-              79,
-              83
-            ]
-          },
-          {
-            "text": "Airdrops",
-            "indices": [
-              84,
-              93
-            ]
-          },
-          {
-            "text": "freetoken",
-            "indices": [
-              94,
-              104
-            ]
-          },
-          {
-            "text": "Coins",
-            "indices": [
-              105,
-              111
-            ]
-          },
-          {
-            "text": "ICO",
-            "indices": [
-              112,
-              116
-            ]
-          },
-          {
-            "text": "BountyProgram",
-            "indices": [
-              117,
-              131
-            ]
-          },
-          {
-            "text": "bounty",
-            "indices": [
-              132,
-              139
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "datareum",
-            "name": "Datareum",
-            "id": 970871280420311000,
-            "id_str": "970871280420311041",
-            "indices": [
-              3,
-              12
-            ]
-          }
-        ],
-        "urls": [
-          {
-            "url": "https://t.co/ukySZBqnLC",
-            "expanded_url": "https://www.advfn.com/cryptocurrency/icolist",
-            "display_url": "advfn.com/cryptocurrency…",
-            "indices": [
-              33,
-              56
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 1813741694,
-        "id_str": "1813741694",
-        "name": "Joglothemes #savedroidICO",
-        "screen_name": "Joglothemes",
-        "location": "",
-        "description": "",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1262,
-        "friends_count": 2249,
-        "listed_count": 4,
-        "created_at": "Sun Sep 08 07:27:22 +0000 2013",
-        "favourites_count": 2655,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 3251,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/909759018184273920/h7Z1N9bs_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/909759018184273920/h7Z1N9bs_normal.jpg",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Thu Apr 05 11:42:28 +0000 2018",
-        "id": 981859614030430200,
-        "id_str": "981859614030430214",
-        "text": "We are listed on:  https://t.co/ukySZBqnLC\n#bitcoin #tokens #BTC #EOS #Airdrops #freetoken #Coins #ICO… https://t.co/b4PlDaveYR",
-        "truncated": true,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "bitcoin",
-              "indices": [
-                43,
-                51
-              ]
-            },
-            {
-              "text": "tokens",
-              "indices": [
-                52,
-                59
-              ]
-            },
-            {
-              "text": "BTC",
-              "indices": [
-                60,
-                64
-              ]
-            },
-            {
-              "text": "EOS",
-              "indices": [
-                65,
-                69
-              ]
-            },
-            {
-              "text": "Airdrops",
-              "indices": [
-                70,
-                79
-              ]
-            },
-            {
-              "text": "freetoken",
-              "indices": [
-                80,
-                90
-              ]
-            },
-            {
-              "text": "Coins",
-              "indices": [
-                91,
-                97
-              ]
-            },
-            {
-              "text": "ICO",
-              "indices": [
-                98,
-                102
-              ]
-            }
-          ],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/ukySZBqnLC",
-              "expanded_url": "https://www.advfn.com/cryptocurrency/icolist",
-              "display_url": "advfn.com/cryptocurrency…",
-              "indices": [
-                19,
-                42
-              ]
-            },
-            {
-              "url": "https://t.co/b4PlDaveYR",
-              "expanded_url": "https://twitter.com/i/web/status/981859614030430214",
-              "display_url": "twitter.com/i/web/status/9…",
-              "indices": [
-                104,
-                127
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 970871280420311000,
-          "id_str": "970871280420311041",
-          "name": "Datareum",
-          "screen_name": "datareum",
-          "location": "",
-          "description": "Datareum is a decentralized marketplace that will enable individuals to monetize their personal data, selling it directly to researchers and companies.",
-          "url": null,
-          "entities": {
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 4002,
-          "friends_count": 0,
-          "listed_count": 52,
-          "created_at": "Tue Mar 06 03:58:45 +0000 2018",
-          "favourites_count": 0,
-          "utc_offset": -25200,
-          "time_zone": "Pacific Time (US & Canada)",
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 68,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "F5F8FA",
-          "profile_background_image_url": null,
-          "profile_background_image_url_https": null,
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/970872503248695296/wK1_Itx7_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/970872503248695296/wK1_Itx7_normal.jpg",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 690,
-        "favorite_count": 647,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 690,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Fri Apr 06 22:49:00 +0000 2018",
-      "id": 982389738266136600,
-      "id_str": "982389738266136576",
-      "text": "RT @RealCryptoLion: Verge Update: regarding the hack. Partnership is safe.\n\n#crypto #altcoins #btc #bitcoin $btc #cryptocurrencies #cryptoc…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "crypto",
-            "indices": [
-              76,
-              83
-            ]
-          },
-          {
-            "text": "altcoins",
-            "indices": [
-              84,
-              93
-            ]
-          },
-          {
-            "text": "btc",
-            "indices": [
-              94,
-              98
-            ]
-          },
-          {
-            "text": "bitcoin",
-            "indices": [
-              99,
-              107
-            ]
-          },
-          {
-            "text": "cryptocurrencies",
-            "indices": [
-              113,
-              130
-            ]
-          }
-        ],
-        "symbols": [
-          {
-            "text": "btc",
-            "indices": [
-              108,
-              112
-            ]
-          }
-        ],
-        "user_mentions": [
-          {
-            "screen_name": "RealCryptoLion",
-            "name": "CryptoLion🦁",
-            "id": 946722502906130400,
-            "id_str": "946722502906130432",
-            "indices": [
-              3,
-              18
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 797251987280642000,
-        "id_str": "797251987280642048",
-        "name": "JTL",
-        "screen_name": "jaymd104",
-        "location": "United States",
-        "description": "Jeep loving,Altcoin trading, Network Engineer loves winter time and snowboarding. #XVG will rock 2018 !",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 213,
-        "friends_count": 122,
-        "listed_count": 5,
-        "created_at": "Sat Nov 12 01:37:40 +0000 2016",
-        "favourites_count": 4951,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 4606,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "F5F8FA",
-        "profile_background_image_url": null,
-        "profile_background_image_url_https": null,
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/980596807456706562/lJGO4rR3_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/980596807456706562/lJGO4rR3_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/797251987280642048/1521670115",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Apr 06 22:38:11 +0000 2018",
-        "id": 982387016234041300,
-        "id_str": "982387016234041344",
-        "text": "Verge Update: regarding the hack. Partnership is safe.\n\n#crypto #altcoins #btc #bitcoin $btc #cryptocurrencies… https://t.co/CEqBwAndEz",
-        "truncated": true,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "crypto",
-              "indices": [
-                56,
-                63
-              ]
-            },
-            {
-              "text": "altcoins",
-              "indices": [
-                64,
-                73
-              ]
-            },
-            {
-              "text": "btc",
-              "indices": [
-                74,
-                78
-              ]
-            },
-            {
-              "text": "bitcoin",
-              "indices": [
-                79,
-                87
-              ]
-            },
-            {
-              "text": "cryptocurrencies",
-              "indices": [
-                93,
-                110
-              ]
-            }
-          ],
-          "symbols": [
-            {
-              "text": "btc",
-              "indices": [
-                88,
-                92
-              ]
-            }
-          ],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/CEqBwAndEz",
-              "expanded_url": "https://twitter.com/i/web/status/982387016234041344",
-              "display_url": "twitter.com/i/web/status/9…",
-              "indices": [
-                112,
-                135
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 946722502906130400,
-          "id_str": "946722502906130432",
-          "name": "CryptoLion🦁",
-          "screen_name": "RealCryptoLion",
-          "location": "worldwide",
-          "description": "Cryptocurrency investor. Top insights in #Bitcoin and #Altcoins. #NextBitcoin. #Crypto.",
-          "url": "https://t.co/ek1HyeFX1Q",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/ek1HyeFX1Q",
-                  "expanded_url": "http://bit.ly/KuCoin-exchange",
-                  "display_url": "bit.ly/KuCoin-exchange",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 5182,
-          "friends_count": 5080,
-          "listed_count": 15,
-          "created_at": "Fri Dec 29 12:40:08 +0000 2017",
-          "favourites_count": 175,
-          "utc_offset": -25200,
-          "time_zone": "Pacific Time (US & Canada)",
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 363,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "000000",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/948335680001859584/2qp6RGw0_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/948335680001859584/2qp6RGw0_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/946722502906130432/1514942560",
-          "profile_link_color": "1B95E0",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "000000",
-          "profile_text_color": "000000",
-          "profile_use_background_image": false,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 4,
-        "favorite_count": 4,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 4,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Fri Apr 06 22:48:59 +0000 2018",
-      "id": 982389735460081700,
-      "id_str": "982389735460081666",
-      "text": "$XRP is gaining momentum on the daily, this is also indicated on the 2HR &amp; 4HR charts. #Ripple is showing an incomi… https://t.co/ktCVzgT6oX",
-      "truncated": true,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "Ripple",
-            "indices": [
-              91,
-              98
-            ]
-          }
-        ],
-        "symbols": [
-          {
-            "text": "XRP",
-            "indices": [
-              0,
-              4
-            ]
-          }
-        ],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/ktCVzgT6oX",
-            "expanded_url": "https://twitter.com/i/web/status/982389735460081666",
-            "display_url": "twitter.com/i/web/status/9…",
-            "indices": [
-              121,
-              144
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 820779482739048400,
-        "id_str": "820779482739048449",
-        "name": "RaptormanUSMC",
-        "screen_name": "RyanLibertyPawn",
-        "location": "Virginia, USA",
-        "description": "Former Marine Machinegunner, Cryptocurrency Enthusiast, Firearm Builder & Merchant.\nPlease make any charitable donations for Veterans to https://t.co/AY2H7hZiFN",
-        "url": "https://t.co/Maar7JzSbI",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/Maar7JzSbI",
-                "expanded_url": "https://www.patreon.com/ryanlibertypawn",
-                "display_url": "patreon.com/ryanlibertypawn",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/AY2H7hZiFN",
-                "expanded_url": "http://www.38vfr.org",
-                "display_url": "38vfr.org",
-                "indices": [
-                  137,
-                  160
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 2152,
-        "friends_count": 152,
-        "listed_count": 29,
-        "created_at": "Sun Jan 15 23:47:32 +0000 2017",
-        "favourites_count": 378,
-        "utc_offset": -14400,
-        "time_zone": "Eastern Time (US & Canada)",
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 1924,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "000000",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/960318638300516352/D740vPov_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/960318638300516352/D740vPov_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/820779482739048449/1515897354",
-        "profile_link_color": "FF691F",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": false,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Fri Apr 06 22:48:59 +0000 2018",
-      "id": 982389734981828600,
-      "id_str": "982389734981828608",
-      "text": "RT @bethereumteam: #Bethereum makes any sports event more fun! ⚽\nWatch the video of the betting process and tag the friends you'd like to c…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "Bethereum",
+            "text": "eSports",
             "indices": [
               19,
-              29
+              27
             ]
           }
         ],
@@ -995,46 +42,60 @@
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 952510969682346000,
-        "id_str": "952510969682345986",
-        "name": "Zuziak Silvester",
-        "screen_name": "ZuziakSilvester",
-        "location": "0xCEf368B27b6Abfe6CC61f93438904ca8F55c4B58",
-        "description": "",
-        "url": null,
+        "id": 946101978471510000,
+        "id_str": "946101978471510016",
+        "name": "Vitaliy Gnezdilov",
+        "screen_name": "VitaliyGnezdil1",
+        "location": "Украина",
+        "description": "#bitcoin | #cryptocurrency | #FOLLOW | #bounty | #altcoin | #ICO | #ETH |#Blockchain | #BTC | #fallowing |#читаюВзаимно |#Follows",
+        "url": "https://t.co/rVn5mlI2SS",
         "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/rVn5mlI2SS",
+                "expanded_url": "https://t.me/cryptoboombang",
+                "display_url": "t.me/cryptoboombang",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
           "description": {
             "urls": []
           }
         },
         "protected": false,
-        "followers_count": 235,
-        "friends_count": 11,
-        "listed_count": 0,
-        "created_at": "Sun Jan 14 12:01:26 +0000 2018",
-        "favourites_count": 84,
-        "utc_offset": null,
-        "time_zone": null,
+        "followers_count": 632,
+        "friends_count": 1020,
+        "listed_count": 1,
+        "created_at": "Wed Dec 27 19:34:24 +0000 2017",
+        "favourites_count": 569,
+        "utc_offset": 10800,
+        "time_zone": "Kyiv",
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 164,
-        "lang": "vi",
+        "statuses_count": 1107,
+        "lang": "ru",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "F5F8FA",
-        "profile_background_image_url": null,
-        "profile_background_image_url_https": null,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/972817721875247106/jPGn4WxN_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/972817721875247106/jPGn4WxN_normal.jpg",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/972891693954592780/pPHqdPvv_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/972891693954592780/pPHqdPvv_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/946101978471510016/1516031815",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
         "default_profile_image": false,
         "following": false,
         "follow_request_sent": false,
@@ -1046,18 +107,18 @@
       "place": null,
       "contributors": null,
       "retweeted_status": {
-        "created_at": "Fri Mar 16 19:22:08 +0000 2018",
-        "id": 974727536293941200,
-        "id_str": "974727536293941248",
-        "text": "#Bethereum makes any sports event more fun! ⚽\nWatch the video of the betting process and tag the friends you'd like… https://t.co/ErDekGyeaO",
+        "created_at": "Fri Apr 06 21:24:48 +0000 2018",
+        "id": 982368550466793500,
+        "id_str": "982368550466793472",
+        "text": "#eSports are in our roadmap for the Q1 of 2019! 🎮\nThey are among the fastest growing and largest markets in the wor… https://t.co/eVMGY8i85U",
         "truncated": true,
         "entities": {
           "hashtags": [
             {
-              "text": "Bethereum",
+              "text": "eSports",
               "indices": [
                 0,
-                10
+                8
               ]
             }
           ],
@@ -1065,8 +126,8 @@
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/ErDekGyeaO",
-              "expanded_url": "https://twitter.com/i/web/status/974727536293941248",
+              "url": "https://t.co/eVMGY8i85U",
+              "expanded_url": "https://twitter.com/i/web/status/982368550466793472",
               "display_url": "twitter.com/i/web/status/9…",
               "indices": [
                 117,
@@ -1112,11 +173,11 @@
             }
           },
           "protected": false,
-          "followers_count": 20091,
+          "followers_count": 20111,
           "friends_count": 55,
-          "listed_count": 70,
+          "listed_count": 74,
           "created_at": "Wed Sep 27 11:24:13 +0000 2017",
-          "favourites_count": 2388,
+          "favourites_count": 2392,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": true,
@@ -1151,239 +212,49 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 3473,
-        "favorite_count": 4079,
+        "retweet_count": 1232,
+        "favorite_count": 1437,
         "favorited": false,
         "retweeted": false,
-        "possibly_sensitive": false,
         "lang": "en"
       },
       "is_quote_status": false,
-      "retweet_count": 3473,
+      "retweet_count": 1232,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "en"
     },
     {
-      "created_at": "Fri Apr 06 22:48:58 +0000 2018",
-      "id": 982389730737344500,
-      "id_str": "982389730737344513",
-      "text": "RT @WEee_ONE: AIRDROP \" WOT  \"WEONE TOKEN TOTAL ; Supply 500,000,00  \n  1. Follow   \n  2. Like     \n  3. Retweet  \n  4. Comment your ETH ad…",
-      "truncated": false,
+      "created_at": "Sat Apr 07 16:27:25 +0000 2018",
+      "id": 982656096912461800,
+      "id_str": "982656096912461824",
+      "text": "Able Airdrop!\nRegister Able website here https://t.co/2htAqvZoAT then login. Go to dashboard, bounty and complete t… https://t.co/lNzSKdJckh",
+      "truncated": true,
       "entities": {
         "hashtags": [],
         "symbols": [],
-        "user_mentions": [
+        "user_mentions": [],
+        "urls": [
           {
-            "screen_name": "WEee_ONE",
-            "name": "WeONE",
-            "id": 975642850707767300,
-            "id_str": "975642850707767296",
+            "url": "https://t.co/2htAqvZoAT",
+            "expanded_url": "https://bit.ly/2IzdP31",
+            "display_url": "bit.ly/2IzdP31",
             "indices": [
-              3,
-              12
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 963953416753090600,
-        "id_str": "963953416753090560",
-        "name": "Feranmi George",
-        "screen_name": "DayoGeorge1",
-        "location": "Lagos, Nigeria",
-        "description": "#FollowBack",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 816,
-        "friends_count": 2142,
-        "listed_count": 0,
-        "created_at": "Thu Feb 15 01:49:38 +0000 2018",
-        "favourites_count": 107,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 599,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "F5F8FA",
-        "profile_background_image_url": null,
-        "profile_background_image_url_https": null,
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/964068956171534336/SQOpqs8I_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/964068956171534336/SQOpqs8I_normal.jpg",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Apr 06 02:22:46 +0000 2018",
-        "id": 982081148846305300,
-        "id_str": "982081148846305280",
-        "text": "AIRDROP \" WOT  \"WEONE TOKEN TOTAL ; Supply 500,000,00  \n  1. Follow   \n  2. Like     \n  3. Retweet  \n  4. Comment y… https://t.co/QbpitiECtW",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/QbpitiECtW",
-              "expanded_url": "https://twitter.com/i/web/status/982081148846305280",
-              "display_url": "twitter.com/i/web/status/9…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 975642850707767300,
-          "id_str": "975642850707767296",
-          "name": "WeONE",
-          "screen_name": "WEee_ONE",
-          "location": "United Kingdom",
-          "description": "This page is about current airdrops, contests, bounty programs and other ways you can get free cryptocurrency and crypto related items.😉#followme #followback",
-          "url": null,
-          "entities": {
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 1856,
-          "friends_count": 62,
-          "listed_count": 0,
-          "created_at": "Mon Mar 19 07:59:16 +0000 2018",
-          "favourites_count": 57,
-          "utc_offset": 0,
-          "time_zone": "UTC",
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 81,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "000000",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/975679048360845316/YEUuest__normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/975679048360845316/YEUuest__normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/975642850707767296/1521447321",
-          "profile_link_color": "19CF86",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "000000",
-          "profile_text_color": "000000",
-          "profile_use_background_image": false,
-          "has_extended_profile": true,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 473,
-        "favorite_count": 492,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 473,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Fri Apr 06 22:48:54 +0000 2018",
-      "id": 982389714681385000,
-      "id_str": "982389714681384961",
-      "text": "RT @DocumentTailor: #DocTailor's #smartcontract platform will make manually filing out heaps of messy paperwork (that can easily get lost)…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "DocTailor",
-            "indices": [
-              20,
-              30
+              41,
+              64
             ]
           },
           {
-            "text": "smartcontract",
+            "url": "https://t.co/lNzSKdJckh",
+            "expanded_url": "https://twitter.com/i/web/status/982656096912461824",
+            "display_url": "twitter.com/i/web/status/9…",
             "indices": [
-              33,
-              47
+              117,
+              140
             ]
           }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "DocumentTailor",
-            "name": "doctailor",
-            "id": 944605766404763600,
-            "id_str": "944605766404763649",
-            "indices": [
-              3,
-              18
-            ]
-          }
-        ],
-        "urls": []
+        ]
       },
       "metadata": {
         "iso_language_code": "en",
@@ -1396,10 +267,10 @@
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 4383142336,
-        "id_str": "4383142336",
-        "name": "Chamara P",
-        "screen_name": "chamaraprasan16",
+        "id": 952079521527877600,
+        "id_str": "952079521527877633",
+        "name": "Airdrops",
+        "screen_name": "serkanaltcoin",
         "location": "",
         "description": "",
         "url": null,
@@ -1409,235 +280,26 @@
           }
         },
         "protected": false,
-        "followers_count": 12356,
-        "friends_count": 863,
-        "listed_count": 5,
-        "created_at": "Sat Dec 05 12:47:27 +0000 2015",
-        "favourites_count": 4037,
-        "utc_offset": 19800,
-        "time_zone": "Sri Jayawardenepura",
+        "followers_count": 524,
+        "friends_count": 770,
+        "listed_count": 2,
+        "created_at": "Sat Jan 13 07:27:01 +0000 2018",
+        "favourites_count": 611,
+        "utc_offset": null,
+        "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 4556,
-        "lang": "en",
+        "statuses_count": 2390,
+        "lang": "tr",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/959243331560660992/DcQa6HCh_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/959243331560660992/DcQa6HCh_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4383142336/1519663162",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Thu Mar 22 16:30:46 +0000 2018",
-        "id": 976858736101855200,
-        "id_str": "976858736101855238",
-        "text": "#DocTailor's #smartcontract platform will make manually filing out heaps of messy paperwork (that can easily get lo… https://t.co/3REGxNxu2v",
-        "truncated": true,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "DocTailor",
-              "indices": [
-                0,
-                10
-              ]
-            },
-            {
-              "text": "smartcontract",
-              "indices": [
-                13,
-                27
-              ]
-            }
-          ],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/3REGxNxu2v",
-              "expanded_url": "https://twitter.com/i/web/status/976858736101855238",
-              "display_url": "twitter.com/i/web/status/9…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 944605766404763600,
-          "id_str": "944605766404763649",
-          "name": "doctailor",
-          "screen_name": "DocumentTailor",
-          "location": "Global",
-          "description": "DocTailor is a unique self customizing smart legal contract platform. #smartcontracts #cryptocurrency #ico #tokensale #crowdsale #presale #ethereum #bitcoin",
-          "url": "https://t.co/Zfu8M8z0mG",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/Zfu8M8z0mG",
-                  "expanded_url": "https://www.doctailor.com",
-                  "display_url": "doctailor.com",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 21688,
-          "friends_count": 3,
-          "listed_count": 155,
-          "created_at": "Sat Dec 23 16:28:59 +0000 2017",
-          "favourites_count": 78,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 257,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "F5F8FA",
-          "profile_background_image_url": null,
-          "profile_background_image_url_https": null,
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/958672293391163393/qnijCJPC_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/958672293391163393/qnijCJPC_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/944605766404763649/1520259830",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 1328,
-        "favorite_count": 1241,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      },
-      "is_quote_status": false,
-      "retweet_count": 1328,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "en"
-    },
-    {
-      "created_at": "Fri Apr 06 22:48:52 +0000 2018",
-      "id": 982389706624307200,
-      "id_str": "982389706624307200",
-      "text": "New #bitcoin block 00000000000000000005ff931a8bd4062253a62d81753f5bd6113c5e99031b26 mined at height 516953.",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "bitcoin",
-            "indices": [
-              4,
-              12
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "en",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://www.milkllc.com\" rel=\"nofollow\">New Block Tweets</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 2206353751,
-        "id_str": "2206353751",
-        "name": "Blockchain Tweets",
-        "screen_name": "blockchainbot",
-        "location": "",
-        "description": "Notifies you when new blocks are mined. Tweet us an address to check the balance. @bugloaf made me.",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1277,
-        "friends_count": 2,
-        "listed_count": 144,
-        "created_at": "Thu Nov 21 04:22:42 +0000 2013",
-        "favourites_count": 0,
-        "utc_offset": -18000,
-        "time_zone": "Central Time (US & Canada)",
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 106722,
-        "lang": "en",
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000771205856/cd1b70b25b78fac0050839e6f4c9b13b_normal.png",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000771205856/cd1b70b25b78fac0050839e6f4c9b13b_normal.png",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/956176922974748673/npb_Q71i_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/956176922974748673/npb_Q71i_normal.jpg",
         "profile_link_color": "1DA1F2",
         "profile_sidebar_border_color": "C0DEED",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -1660,55 +322,42 @@
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
+      "possibly_sensitive": false,
       "lang": "en"
     },
     {
-      "created_at": "Fri Apr 06 22:48:52 +0000 2018",
-      "id": 982389703985987600,
-      "id_str": "982389703985987584",
-      "text": "RT @miroskii: #Miroskii will use a multi-signature #securitysystem for every #transaction in the #bankingnetwork. The safety of your assets…",
+      "created_at": "Sat Apr 07 16:27:24 +0000 2018",
+      "id": 982656095641657300,
+      "id_str": "982656095641657344",
+      "text": "RT @DigitizeCoin: The #Digitize public #presale is NOW OPEN.\n\n➡Contribute and receive a\n25% Presale Discount!\nMinimum contribution 0.1 ETH…",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "Miroskii",
+            "text": "Digitize",
             "indices": [
-              14,
-              23
+              22,
+              31
             ]
           },
           {
-            "text": "securitysystem",
+            "text": "presale",
             "indices": [
-              51,
-              66
-            ]
-          },
-          {
-            "text": "transaction",
-            "indices": [
-              77,
-              89
-            ]
-          },
-          {
-            "text": "bankingnetwork",
-            "indices": [
-              97,
-              112
+              39,
+              47
             ]
           }
         ],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "miroskii",
-            "name": "MIROSKII",
-            "id": 971008581196746800,
-            "id_str": "971008581196746753",
+            "screen_name": "DigitizeCoin",
+            "name": "Digitize Coin",
+            "id": 950165227731017700,
+            "id_str": "950165227731017729",
             "indices": [
               3,
-              12
+              16
             ]
           }
         ],
@@ -1718,19 +367,19 @@
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 982383311552204800,
-        "id_str": "982383311552204800",
-        "name": "lael lieb",
-        "screen_name": "laellieb1",
+        "id": 952547579903983600,
+        "id_str": "952547579903983616",
+        "name": "Cave man",
+        "screen_name": "Caveman80909",
         "location": "",
-        "description": "",
+        "description": "Guitarhero, Agriculturist, Gamer, Carpenter - #followback😉",
         "url": null,
         "entities": {
           "description": {
@@ -1738,16 +387,16 @@
           }
         },
         "protected": false,
-        "followers_count": 1,
-        "friends_count": 51,
-        "listed_count": 0,
-        "created_at": "Fri Apr 06 22:23:28 +0000 2018",
-        "favourites_count": 1,
+        "followers_count": 1296,
+        "friends_count": 1715,
+        "listed_count": 1,
+        "created_at": "Sun Jan 14 14:26:55 +0000 2018",
+        "favourites_count": 1105,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 16,
+        "statuses_count": 1172,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
@@ -1756,8 +405,9 @@
         "profile_background_image_url": null,
         "profile_background_image_url_https": null,
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/982387108580089856/x65e8m0o_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/982387108580089856/x65e8m0o_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/953339085925437440/q7Y6Lqy6_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/953339085925437440/q7Y6Lqy6_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/952547579903983616/1516129770",
         "profile_link_color": "1DA1F2",
         "profile_sidebar_border_color": "C0DEED",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -1776,39 +426,25 @@
       "place": null,
       "contributors": null,
       "retweeted_status": {
-        "created_at": "Fri Apr 06 11:43:52 +0000 2018",
-        "id": 982222353735168000,
-        "id_str": "982222353735168004",
-        "text": "#Miroskii will use a multi-signature #securitysystem for every #transaction in the #bankingnetwork. The safety of y… https://t.co/USW0Qk67E3",
+        "created_at": "Fri Apr 06 23:31:14 +0000 2018",
+        "id": 982400368448450600,
+        "id_str": "982400368448450560",
+        "text": "The #Digitize public #presale is NOW OPEN.\n\n➡Contribute and receive a\n25% Presale Discount!\nMinimum contribution 0.… https://t.co/fdkZljhiMP",
         "truncated": true,
         "entities": {
           "hashtags": [
             {
-              "text": "Miroskii",
+              "text": "Digitize",
               "indices": [
-                0,
-                9
+                4,
+                13
               ]
             },
             {
-              "text": "securitysystem",
+              "text": "presale",
               "indices": [
-                37,
-                52
-              ]
-            },
-            {
-              "text": "transaction",
-              "indices": [
-                63,
-                75
-              ]
-            },
-            {
-              "text": "bankingnetwork",
-              "indices": [
-                83,
-                98
+                21,
+                29
               ]
             }
           ],
@@ -1816,8 +452,8 @@
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/USW0Qk67E3",
-              "expanded_url": "https://twitter.com/i/web/status/982222353735168004",
+              "url": "https://t.co/fdkZljhiMP",
+              "expanded_url": "https://twitter.com/i/web/status/982400368448450560",
               "display_url": "twitter.com/i/web/status/9…",
               "indices": [
                 117,
@@ -1830,36 +466,68 @@
           "iso_language_code": "en",
           "result_type": "recent"
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-          "id": 971008581196746800,
-          "id_str": "971008581196746753",
-          "name": "MIROSKII",
-          "screen_name": "miroskii",
-          "location": "Toky",
-          "description": "Official Twitter Account.\n\nMIROSKII Coins ease the difficulty accrued during financial transactions.",
-          "url": null,
+          "id": 950165227731017700,
+          "id_str": "950165227731017729",
+          "name": "Digitize Coin",
+          "screen_name": "DigitizeCoin",
+          "location": "Australia",
+          "description": "#Digitize an upcoming #ICO that enables loose change and cash deposits to #cryptocurrency. ANN: https://t.co/vlHnxVGaSM Chat: https://t.co/lyinF7oOCm",
+          "url": "https://t.co/jHuHjwqLWj",
           "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/jHuHjwqLWj",
+                  "expanded_url": "http://digitizecoin.com",
+                  "display_url": "digitizecoin.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
             "description": {
-              "urls": []
+              "urls": [
+                {
+                  "url": "https://t.co/vlHnxVGaSM",
+                  "expanded_url": "http://t.me/DigitizeCoin",
+                  "display_url": "t.me/DigitizeCoin",
+                  "indices": [
+                    96,
+                    119
+                  ]
+                },
+                {
+                  "url": "https://t.co/lyinF7oOCm",
+                  "expanded_url": "http://t.me/DigitizeChat",
+                  "display_url": "t.me/DigitizeChat",
+                  "indices": [
+                    126,
+                    149
+                  ]
+                }
+              ]
             }
           },
           "protected": false,
-          "followers_count": 49,
-          "friends_count": 83,
-          "listed_count": 0,
-          "created_at": "Tue Mar 06 13:04:21 +0000 2018",
-          "favourites_count": 9,
+          "followers_count": 21319,
+          "friends_count": 22,
+          "listed_count": 193,
+          "created_at": "Mon Jan 08 00:40:18 +0000 2018",
+          "favourites_count": 30,
           "utc_offset": -25200,
           "time_zone": "Pacific Time (US & Canada)",
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 62,
+          "statuses_count": 199,
           "lang": "en",
           "contributors_enabled": false,
           "is_translator": false,
@@ -1868,14 +536,15 @@
           "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
           "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
           "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/971009525238128640/yYmvxzAG_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/971009525238128640/yYmvxzAG_normal.jpg",
-          "profile_link_color": "7FDBB6",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/964913748535402497/zsM60fXn_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/964913748535402497/zsM60fXn_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/950165227731017729/1523021186",
+          "profile_link_color": "1C75BC",
           "profile_sidebar_border_color": "000000",
           "profile_sidebar_fill_color": "000000",
           "profile_text_color": "000000",
           "profile_use_background_image": false,
-          "has_extended_profile": true,
+          "has_extended_profile": false,
           "default_profile": false,
           "default_profile_image": false,
           "following": false,
@@ -1888,73 +557,355 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 59,
-        "favorite_count": 5,
+        "retweet_count": 383,
+        "favorite_count": 393,
         "favorited": false,
         "retweeted": false,
+        "possibly_sensitive": false,
         "lang": "en"
       },
       "is_quote_status": false,
-      "retweet_count": 59,
+      "retweet_count": 383,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "en"
     },
     {
-      "created_at": "Fri Apr 06 22:48:49 +0000 2018",
-      "id": 982389693076648000,
-      "id_str": "982389693076647936",
-      "text": "RT @DocumentTailor: Join DocTailor's #Token #AirDrop\n250 #free DOCT #tokens given away to each user #Airdropsnow live! 💸\n\nClick here and jo…",
+      "created_at": "Sat Apr 07 16:27:23 +0000 2018",
+      "id": 982656092349128700,
+      "id_str": "982656092349128705",
+      "text": "RT @BTF_PROJECT: Hi Everyone! \n\nGood news are keep coming from South Korea!\n\nhttps://t.co/BRYcTYKzNE\n\n#BITRUST #Crypto #ICO #Insurance #Eth…",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
-            "text": "Token",
+            "text": "BITRUST",
             "indices": [
-              37,
-              43
+              102,
+              110
             ]
           },
           {
-            "text": "AirDrop",
+            "text": "Crypto",
             "indices": [
-              44,
-              52
+              111,
+              118
             ]
           },
           {
-            "text": "free",
+            "text": "ICO",
             "indices": [
-              57,
-              62
+              119,
+              123
             ]
           },
           {
-            "text": "tokens",
+            "text": "Insurance",
             "indices": [
-              68,
-              75
-            ]
-          },
-          {
-            "text": "Airdropsnow",
-            "indices": [
-              100,
-              112
+              124,
+              134
             ]
           }
         ],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "DocumentTailor",
-            "name": "doctailor",
-            "id": 944605766404763600,
-            "id_str": "944605766404763649",
+            "screen_name": "BTF_PROJECT",
+            "name": "BITRUST",
+            "id": 935784376515821600,
+            "id_str": "935784376515821568",
             "indices": [
               3,
-              18
+              15
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/BRYcTYKzNE",
+            "expanded_url": "http://www.getnews.co.kr/news/articleView.html?idxno=60404",
+            "display_url": "getnews.co.kr/news/articleVi…",
+            "indices": [
+              77,
+              100
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 127043631,
+        "id_str": "127043631",
+        "name": "ULADZIMIR BAYARAU",
+        "screen_name": "bauarau",
+        "location": "BY, Belarus",
+        "description": "#followme\n#cryptofollow\n#followback\n#followme\n#folloback\n#following\n#follow\n#إضافةالأصدقاء\n#フォローする\n#友達を追加\n#添加朋\n#友\n#взаимнаяподписка #читаювзаимно\n#фолловинг",
+        "url": "https://t.co/oETn4y3SpD",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/oETn4y3SpD",
+                "expanded_url": "http://wobe.ru",
+                "display_url": "wobe.ru",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4995,
+        "friends_count": 5489,
+        "listed_count": 14,
+        "created_at": "Sat Mar 27 21:27:27 +0000 2010",
+        "favourites_count": 4755,
+        "utc_offset": 10800,
+        "time_zone": "Minsk",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 3854,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "709397",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/972909798764285953/Gwz2RuEU_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/972909798764285953/Gwz2RuEU_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/127043631/1518213549",
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "86A4A6",
+        "profile_sidebar_fill_color": "A0C5C7",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 06 06:50:52 +0000 2018",
+        "id": 982148617346498600,
+        "id_str": "982148617346498561",
+        "text": "Hi Everyone! \n\nGood news are keep coming from South Korea!\n\nhttps://t.co/BRYcTYKzNE\n\n#BITRUST #Crypto #ICO… https://t.co/OQ2fh41OOV",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "BITRUST",
+              "indices": [
+                85,
+                93
+              ]
+            },
+            {
+              "text": "Crypto",
+              "indices": [
+                94,
+                101
+              ]
+            },
+            {
+              "text": "ICO",
+              "indices": [
+                102,
+                106
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/BRYcTYKzNE",
+              "expanded_url": "http://www.getnews.co.kr/news/articleView.html?idxno=60404",
+              "display_url": "getnews.co.kr/news/articleVi…",
+              "indices": [
+                60,
+                83
+              ]
+            },
+            {
+              "url": "https://t.co/OQ2fh41OOV",
+              "expanded_url": "https://twitter.com/i/web/status/982148617346498561",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                108,
+                131
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 935784376515821600,
+          "id_str": "935784376515821568",
+          "name": "BITRUST",
+          "screen_name": "BTF_PROJECT",
+          "location": "London, England",
+          "description": "Simple & Easy to Use Cryptocurrency Insurance Platform",
+          "url": "https://t.co/AhHTSE7TgG",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/AhHTSE7TgG",
+                  "expanded_url": "http://bitrust.co.uk",
+                  "display_url": "bitrust.co.uk",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 7314,
+          "friends_count": 150,
+          "listed_count": 117,
+          "created_at": "Wed Nov 29 08:15:56 +0000 2017",
+          "favourites_count": 38,
+          "utc_offset": 3600,
+          "time_zone": "London",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 78,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/935801467679715328/LonZKBb5_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/935801467679715328/LonZKBb5_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/935784376515821568/1520241007",
+          "profile_link_color": "E81C4F",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1776,
+        "favorite_count": 1652,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1776,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 07 16:27:22 +0000 2018",
+      "id": 982656085231329300,
+      "id_str": "982656085231329280",
+      "text": "RT @CoinsAirdrops: #Bitcoin #Satoshi #crypto #blockchain #Airdrop\nQuantadex Exchange Giveaway 📢\n\nSign Up and Receive $250 free\n\n💰💰💰$250 Wil…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Bitcoin",
+            "indices": [
+              19,
+              27
+            ]
+          },
+          {
+            "text": "Satoshi",
+            "indices": [
+              28,
+              36
+            ]
+          },
+          {
+            "text": "crypto",
+            "indices": [
+              37,
+              44
+            ]
+          },
+          {
+            "text": "blockchain",
+            "indices": [
+              45,
+              56
+            ]
+          },
+          {
+            "text": "Airdrop",
+            "indices": [
+              57,
+              65
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "CoinsAirdrops",
+            "name": "Crypto Airdrops",
+            "id": 967459590303633400,
+            "id_str": "967459590303633408",
+            "indices": [
+              3,
+              17
             ]
           }
         ],
@@ -1964,37 +915,50 @@
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Mobile Web (M2)</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 959792287608983600,
-        "id_str": "959792287608983553",
-        "name": "Akub",
-        "screen_name": "Akub2368",
-        "location": "",
-        "description": "",
-        "url": null,
+        "id": 967459590303633400,
+        "id_str": "967459590303633408",
+        "name": "Crypto Airdrops",
+        "screen_name": "CoinsAirdrops",
+        "location": "Blockchain",
+        "description": "Find Latest Cryptocurrencies Airdrops #Bitcoin #Crypto #Ethereum #Altcoin #Airdrop",
+        "url": "https://t.co/RtB4m1BuVp",
         "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/RtB4m1BuVp",
+                "expanded_url": "http://cryptoairdrops.cf",
+                "display_url": "cryptoairdrops.cf",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
           "description": {
             "urls": []
           }
         },
         "protected": false,
-        "followers_count": 978,
-        "friends_count": 31,
-        "listed_count": 0,
-        "created_at": "Sat Feb 03 14:14:48 +0000 2018",
-        "favourites_count": 546,
-        "utc_offset": null,
-        "time_zone": null,
+        "followers_count": 269,
+        "friends_count": 243,
+        "listed_count": 4,
+        "created_at": "Sat Feb 24 18:01:55 +0000 2018",
+        "favourites_count": 5,
+        "utc_offset": 3600,
+        "time_zone": "Casablanca",
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 579,
-        "lang": "tr",
+        "statuses_count": 148,
+        "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
@@ -2002,9 +966,9 @@
         "profile_background_image_url": null,
         "profile_background_image_url_https": null,
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/959872475218829315/eQeGI8Fv_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/959872475218829315/eQeGI8Fv_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/959792287608983553/1517685956",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/974749435497533443/Dq1lWvZE_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/974749435497533443/Dq1lWvZE_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/967459590303633408/1521233698",
         "profile_link_color": "1DA1F2",
         "profile_sidebar_border_color": "C0DEED",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2023,46 +987,46 @@
       "place": null,
       "contributors": null,
       "retweeted_status": {
-        "created_at": "Sun Apr 01 21:26:06 +0000 2018",
-        "id": 980556936163872800,
-        "id_str": "980556936163872768",
-        "text": "Join DocTailor's #Token #AirDrop\n250 #free DOCT #tokens given away to each user #Airdropsnow live! 💸\n\nClick here an… https://t.co/n1vL5mSw8Q",
+        "created_at": "Thu Mar 22 01:44:16 +0000 2018",
+        "id": 976635642389127200,
+        "id_str": "976635642389127169",
+        "text": "#Bitcoin #Satoshi #crypto #blockchain #Airdrop\nQuantadex Exchange Giveaway 📢\n\nSign Up and Receive $250 free\n\n💰💰💰$25… https://t.co/naKcNpgOsE",
         "truncated": true,
         "entities": {
           "hashtags": [
             {
-              "text": "Token",
+              "text": "Bitcoin",
               "indices": [
-                17,
-                23
+                0,
+                8
               ]
             },
             {
-              "text": "AirDrop",
+              "text": "Satoshi",
               "indices": [
-                24,
-                32
+                9,
+                17
               ]
             },
             {
-              "text": "free",
+              "text": "crypto",
               "indices": [
-                37,
-                42
+                18,
+                25
               ]
             },
             {
-              "text": "tokens",
+              "text": "blockchain",
               "indices": [
-                48,
-                55
+                26,
+                37
               ]
             },
             {
-              "text": "Airdropsnow",
+              "text": "Airdrop",
               "indices": [
-                80,
-                92
+                38,
+                46
               ]
             }
           ],
@@ -2070,8 +1034,8 @@
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/n1vL5mSw8Q",
-              "expanded_url": "https://twitter.com/i/web/status/980556936163872768",
+              "url": "https://t.co/naKcNpgOsE",
+              "expanded_url": "https://twitter.com/i/web/status/976635642389127169",
               "display_url": "twitter.com/i/web/status/9…",
               "indices": [
                 117,
@@ -2091,20 +1055,20 @@
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-          "id": 944605766404763600,
-          "id_str": "944605766404763649",
-          "name": "doctailor",
-          "screen_name": "DocumentTailor",
-          "location": "Global",
-          "description": "DocTailor is a unique self customizing smart legal contract platform. #smartcontracts #cryptocurrency #ico #tokensale #crowdsale #presale #ethereum #bitcoin",
-          "url": "https://t.co/Zfu8M8z0mG",
+          "id": 967459590303633400,
+          "id_str": "967459590303633408",
+          "name": "Crypto Airdrops",
+          "screen_name": "CoinsAirdrops",
+          "location": "Blockchain",
+          "description": "Find Latest Cryptocurrencies Airdrops #Bitcoin #Crypto #Ethereum #Altcoin #Airdrop",
+          "url": "https://t.co/RtB4m1BuVp",
           "entities": {
             "url": {
               "urls": [
                 {
-                  "url": "https://t.co/Zfu8M8z0mG",
-                  "expanded_url": "https://www.doctailor.com",
-                  "display_url": "doctailor.com",
+                  "url": "https://t.co/RtB4m1BuVp",
+                  "expanded_url": "http://cryptoairdrops.cf",
+                  "display_url": "cryptoairdrops.cf",
                   "indices": [
                     0,
                     23
@@ -2117,16 +1081,16 @@
             }
           },
           "protected": false,
-          "followers_count": 21688,
-          "friends_count": 3,
-          "listed_count": 155,
-          "created_at": "Sat Dec 23 16:28:59 +0000 2017",
-          "favourites_count": 78,
-          "utc_offset": null,
-          "time_zone": null,
+          "followers_count": 269,
+          "friends_count": 243,
+          "listed_count": 4,
+          "created_at": "Sat Feb 24 18:01:55 +0000 2018",
+          "favourites_count": 5,
+          "utc_offset": 3600,
+          "time_zone": "Casablanca",
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 257,
+          "statuses_count": 148,
           "lang": "en",
           "contributors_enabled": false,
           "is_translator": false,
@@ -2135,9 +1099,9 @@
           "profile_background_image_url": null,
           "profile_background_image_url_https": null,
           "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/958672293391163393/qnijCJPC_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/958672293391163393/qnijCJPC_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/944605766404763649/1520259830",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/974749435497533443/Dq1lWvZE_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/974749435497533443/Dq1lWvZE_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/967459590303633408/1521233698",
           "profile_link_color": "1DA1F2",
           "profile_sidebar_border_color": "C0DEED",
           "profile_sidebar_fill_color": "DDEEF6",
@@ -2156,28 +1120,603 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 6273,
-        "favorite_count": 7528,
+        "retweet_count": 12,
+        "favorite_count": 18,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
         "lang": "en"
       },
       "is_quote_status": false,
-      "retweet_count": 6273,
+      "retweet_count": 12,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 07 16:27:20 +0000 2018",
+      "id": 982656077647904800,
+      "id_str": "982656077647904773",
+      "text": "@thegrifft I got a ton of Kovan if you ever need it. Also https://t.co/3oAgAkDRE3 makes it very easy to spin up you… https://t.co/ur2TFTXGoa",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "thegrifft",
+            "name": "Griff Green",
+            "id": 263162731,
+            "id_str": "263162731",
+            "indices": [
+              0,
+              10
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/3oAgAkDRE3",
+            "expanded_url": "http://dapp.tools",
+            "display_url": "dapp.tools",
+            "indices": [
+              58,
+              81
+            ]
+          },
+          {
+            "url": "https://t.co/ur2TFTXGoa",
+            "expanded_url": "https://twitter.com/i/web/status/982656077647904773",
+            "display_url": "twitter.com/i/web/status/9…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 982632349899853800,
+      "in_reply_to_status_id_str": "982632349899853824",
+      "in_reply_to_user_id": 263162731,
+      "in_reply_to_user_id_str": "263162731",
+      "in_reply_to_screen_name": "thegrifft",
+      "user": {
+        "id": 8467092,
+        "id_str": "8467092",
+        "name": "Kenny Rowe",
+        "screen_name": "kennyrowe",
+        "location": "Seattle Wa",
+        "description": "Holistic Technologist. I live part time in the future. Rchain Cooperative. MakerDAO. CoinFund. Onchain",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1564,
+        "friends_count": 456,
+        "listed_count": 139,
+        "created_at": "Mon Aug 27 17:43:39 +0000 2007",
+        "favourites_count": 1346,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 7059,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "3C2C22",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/151865169/x8cabe4982d3252334b95dcb508d56fb.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/151865169/x8cabe4982d3252334b95dcb508d56fb.jpg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000452625570/32ff62a47201710b3a02e05ecb99e64a_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000452625570/32ff62a47201710b3a02e05ecb99e64a_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/8467092/1415237989",
+        "profile_link_color": "7A5C45",
+        "profile_sidebar_border_color": "7A5C45",
+        "profile_sidebar_fill_color": "281E17",
+        "profile_text_color": "54493E",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 07 16:27:20 +0000 2018",
+      "id": 982656076712742900,
+      "id_str": "982656076712742914",
+      "text": "RT @bethereumteam: We are grateful for all of the positive feedback we are getting from several platforms! Another Interview with out co-fo…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "bethereumteam",
+            "name": "Bethereum",
+            "id": 913001325268553700,
+            "id_str": "913001325268553728",
+            "indices": [
+              3,
+              17
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 957539924860809200,
+        "id_str": "957539924860809216",
+        "name": "Manuel Viamonte",
+        "screen_name": "manuel_viamonte",
+        "location": "Texas, USA",
+        "description": "1000% follow back",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 130,
+        "friends_count": 361,
+        "listed_count": 1,
+        "created_at": "Sun Jan 28 09:04:43 +0000 2018",
+        "favourites_count": 121,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 184,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/970290786335055873/glztnOK2_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/970290786335055873/glztnOK2_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/957539924860809216/1520170403",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Feb 16 10:52:40 +0000 2018",
+        "id": 964452464123699200,
+        "id_str": "964452464123699200",
+        "text": "We are grateful for all of the positive feedback we are getting from several platforms! Another Interview with out… https://t.co/QZtksXyqxA",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/QZtksXyqxA",
+              "expanded_url": "https://twitter.com/i/web/status/964452464123699200",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                116,
+                139
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 913001325268553700,
+          "id_str": "913001325268553728",
+          "name": "Bethereum",
+          "screen_name": "bethereumteam",
+          "location": "Hong Kong",
+          "description": "Bethereum is a social betting platform built on the Blockchain. Bets are placed using our own Bether token. Stay tuned for our everyday progress!",
+          "url": "https://t.co/Epi5TAtxAA",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/Epi5TAtxAA",
+                  "expanded_url": "http://bethereum.com",
+                  "display_url": "bethereum.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 20111,
+          "friends_count": 55,
+          "listed_count": 74,
+          "created_at": "Wed Sep 27 11:24:13 +0000 2017",
+          "favourites_count": 2392,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 373,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/948665847932911617/X6rDGp6f_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/948665847932911617/X6rDGp6f_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/913001325268553728/1516273554",
+          "profile_link_color": "11C7D1",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2929,
+        "favorite_count": 4127,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 2929,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 07 16:27:19 +0000 2018",
+      "id": 982656075005644800,
+      "id_str": "982656075005644800",
+      "text": "RT @murthaburke: Get up to $1,250 as Soon as the Next Business day! \nhttps://t.co/zoTcmHFvGP \n#blockchain #cryptocurrency #crypto #ethereum…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "blockchain",
+            "indices": [
+              94,
+              105
+            ]
+          },
+          {
+            "text": "cryptocurrency",
+            "indices": [
+              106,
+              121
+            ]
+          },
+          {
+            "text": "crypto",
+            "indices": [
+              122,
+              129
+            ]
+          },
+          {
+            "text": "ethereum",
+            "indices": [
+              130,
+              139
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "murthaburke",
+            "name": "M&B Marketing",
+            "id": 863060650783895600,
+            "id_str": "863060650783895553",
+            "indices": [
+              3,
+              15
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/zoTcmHFvGP",
+            "expanded_url": "http://ow.ly/zziV30jk8NP",
+            "display_url": "ow.ly/zziV30jk8NP",
+            "indices": [
+              69,
+              92
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 980588310400786400,
+        "id_str": "980588310400786433",
+        "name": "पाल्पाली",
+        "screen_name": "CmRnL7bEwNWkXQG",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 0,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Sun Apr 01 23:30:46 +0000 2018",
+        "favourites_count": 1,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 5,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Apr 05 20:10:12 +0000 2018",
+        "id": 981987389605376000,
+        "id_str": "981987389605376007",
+        "text": "Get up to $1,250 as Soon as the Next Business day! \nhttps://t.co/zoTcmHFvGP \n#blockchain #cryptocurrency #crypto… https://t.co/HS48SWt8Oc",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "blockchain",
+              "indices": [
+                77,
+                88
+              ]
+            },
+            {
+              "text": "cryptocurrency",
+              "indices": [
+                89,
+                104
+              ]
+            },
+            {
+              "text": "crypto",
+              "indices": [
+                105,
+                112
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/zoTcmHFvGP",
+              "expanded_url": "http://ow.ly/zziV30jk8NP",
+              "display_url": "ow.ly/zziV30jk8NP",
+              "indices": [
+                52,
+                75
+              ]
+            },
+            {
+              "url": "https://t.co/HS48SWt8Oc",
+              "expanded_url": "https://twitter.com/i/web/status/981987389605376007",
+              "display_url": "twitter.com/i/web/status/9…",
+              "indices": [
+                114,
+                137
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 863060650783895600,
+          "id_str": "863060650783895553",
+          "name": "M&B Marketing",
+          "screen_name": "murthaburke",
+          "location": "St Louis, MO",
+          "description": "Buy Top Online Fun Products on Scroll Forever for fun for all ages! \n\nEasily buy fun merchandise delivered to your home on top of huge savings!",
+          "url": "https://t.co/oozz110wOM",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/oozz110wOM",
+                  "expanded_url": "https://scrollforever.net",
+                  "display_url": "scrollforever.net",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 288055,
+          "friends_count": 91359,
+          "listed_count": 48,
+          "created_at": "Fri May 12 15:57:48 +0000 2017",
+          "favourites_count": 90590,
+          "utc_offset": -25200,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 5064,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/892265140430569472/lgP345mG_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/892265140430569472/lgP345mG_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/863060650783895553/1507051711",
+          "profile_link_color": "44B7EB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1107,
+        "favorite_count": 606,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1107,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
     }
   ],
   "search_metadata": {
-    "completed_in": 0.051,
-    "max_id": 982389744544993300,
-    "max_id_str": "982389744544993280",
-    "next_results": "?max_id=982389693076647935&q=%23bitcoin%20OR%20%23ethereum%20OR%20%23dash%20OR%20%23ripple%20OR%20%23ipfs%20OR%20%23ssb&lang=en&count=10&include_entities=1&result_type=recent",
+    "completed_in": 0.08,
+    "max_id": 982656103015178200,
+    "max_id_str": "982656103015178241",
     "query": "%23bitcoin+OR+%23ethereum+OR+%23dash+OR+%23ripple+OR+%23ipfs+OR+%23ssb",
-    "refresh_url": "?since_id=982389744544993280&q=%23bitcoin%20OR%20%23ethereum%20OR%20%23dash%20OR%20%23ripple%20OR%20%23ipfs%20OR%20%23ssb&lang=en&result_type=recent&include_entities=1",
+    "refresh_url": "?since_id=982656103015178241&q=%23bitcoin%20OR%20%23ethereum%20OR%20%23dash%20OR%20%23ripple%20OR%20%23ipfs%20OR%20%23ssb&lang=en&result_type=recent&include_entities=1",
     "count": 10,
     "since_id": 0,
     "since_id_str": "0"
