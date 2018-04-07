@@ -114,7 +114,7 @@ let retweet = () => {
           }
 
           //Post Tweet method
-          //postTweet(screen_name, hashtagUsed, tweet_url, tweet);
+          postTweet(screen_name, hashtagUsed, tweet_url, tweet);
         }
         else{
           console.log('already tweeted this user');
