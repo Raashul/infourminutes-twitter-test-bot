@@ -47,7 +47,7 @@ let retweet = () => {
         const bool_tweet_condition = checkReply.checkToReply(post);
         //console.log('bool_tweet_condition', bool_tweet_condition);
 
-        if(bool_user_not_in_db === true || bool_tweet_condition === true){
+        if(bool_user_not_in_db === true && bool_tweet_condition === true){
 
           // let fs = require('fs');
           // let json = JSON.stringify(data, null, 2);
@@ -130,8 +130,8 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-//setInterval(retweet, 1000*60*30);
-retweet();
+setInterval(retweet, 1000*60*60*3);
+//retweet();
 
 
 //callback function to post tweet

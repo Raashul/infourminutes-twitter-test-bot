@@ -36,7 +36,7 @@ function checkToReply(user){
       }
     }
 
-    return (boolCount >= 1) ? true: false;
+    return (boolCount >= 3) ? true: false;
   }
 
 }
