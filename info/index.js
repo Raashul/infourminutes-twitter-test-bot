@@ -1,3 +1,6 @@
+const specificTweets = require('../tweets/specific');
+const genericTweet = require('../tweets/generic');
+
 module.exports.sendTweet = (hashtag, url, screen_name) => {
   //randomly select either specific tweet or general tweet
   /*
@@ -8,22 +11,14 @@ module.exports.sendTweet = (hashtag, url, screen_name) => {
   */
   if(Math.round(Math.random()) == 0){
     console.log('randomly picked generic tweet')
-    let tweet = {
-      status: 'Hey ' + '@' + screen_name + '! ' + 'Looks like you were looking to read more about ' + hashtag + '. ' +
-      'We have written a four minute summary of ' + hashtag + ' Feel free to follow @infourminutesco'
-    }
-    return tweet;
+    console.log(genericTweet.pickGeneric(hashtag, url, screen_name).status)
+    return genericTweet.pickGeneric(hashtag, url, screen_name);
+
   }
   else{
     console.log('randomly picked specific tweet')
-    let tweet = {
-      status: 'Hey ' + '@' + screen_name + '! We love what ' + hashtag +
-      ' are doing. We are a big fan of decentralized exchanges as well.' +
-      ' We have written a four minute summary of ' + hashtag + ' protocol in this article.' +
-      ' Feel free to follow @infourminutesco.'
-
-    }
-    return tweet;
+    console.log(specificTweets.pickSpecific(hashtag, url, screen_name).status)
+    return specificTweets.pickSpecific(hashtag, url, screen_name);
   }
 
 }

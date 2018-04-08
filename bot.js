@@ -47,11 +47,11 @@ let retweet = () => {
         const bool_tweet_condition = checkReply.checkToReply(post);
         //console.log('bool_tweet_condition', bool_tweet_condition);
 
-        if(bool_user_not_in_db === true && bool_tweet_condition === true){
+        if(bool_user_not_in_db === true || bool_tweet_condition === true){
 
-          let fs = require('fs');
-          let json = JSON.stringify(data, null, 2);
-          fs.writeFile("tweet.json", json);
+          // let fs = require('fs');
+          // let json = JSON.stringify(data, null, 2);
+          // fs.writeFile("tweet.json", json);
 
           //console.log('storing' +  ' User ' + post.user.screen_name);
 
@@ -73,8 +73,7 @@ let retweet = () => {
               break;
             }
 
-            else if (hashtag.text == 'ethereum' || hashtag.text == 'Ethereum'){
-              console.log('asda');
+            else if (hashtag.text == 'ethereumRR' || hashtag.text == 'EthereumRR'){
               hashtagUsed  = "Ethereum"
               tweet_url = 'http://infourminutes.co/whitepaper/ethereum';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
@@ -117,7 +116,7 @@ let retweet = () => {
           postTweet(screen_name, hashtagUsed, tweet_url, tweet);
         }
         else{
-          console.log('already tweeted this user');
+          console.log('already tweeted this user or did not meet condition');
         }
 
       });
@@ -163,6 +162,6 @@ retweet();
     const pageUrl = 'http://infourminutes.co/';
 
     Follow.tweetNow(Twitter,
-      'Hey ' + '@' + screenName + '. ' + 'Thanks for following a twiter bot for http://infourminutes.co/' +
-      ' Feel free to follow @infourminutesco.');
+      'Hey ' + '@' + screenName + '! ' + 'Thanks for following a twiter bot for @infourminutesco' +
+      ' We write a four minute summary of different cryptocurrency protocol. Check out our articles at http://infourminutes.co');
   }
