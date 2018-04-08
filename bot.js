@@ -130,7 +130,7 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-//setInterval(retweet, 1000*60*60);
+//setInterval(retweet, 1000*60*30);
 retweet();
 
 

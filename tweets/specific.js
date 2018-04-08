@@ -19,7 +19,7 @@ module.exports.pickSpecific = (hashtag, url, screen_name) => {
 
   else if(randomSpecific == 2){
     let tweet = {
-      status: '@' + screen_name + ' We noticed that you are interested in ' + hashtag +'. We wrote a summary: ' + url +
+      status: '@' + screen_name + '. We noticed that you are interested in ' + hashtag +' . We wrote a summary: ' + url +
        ' Please follow @infourminutesco, where we write a four minute summary of a whitepaper every week.'
     }
     return tweet;
@@ -28,7 +28,7 @@ module.exports.pickSpecific = (hashtag, url, screen_name) => {
 
   else{
     let tweet = {
-      status: '@' + screen_name + ' I saw that you were interested in ' + hashtag +
+      status: '@' + screen_name + '. I saw that you were interested in ' + hashtag +
       '. We wrote a four minutes summary of ' + hashtag + ' whitepaper. Feel free to check this link out: ' + url
     }
     return tweet;
