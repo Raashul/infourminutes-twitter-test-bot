@@ -159,6 +159,6 @@ let retweet = () => {
     const pageUrl = 'http://infourminutes.co/';
 
     Follow.tweetNow(Twitter,
-      'Hey ' + '@' + screenName + '! ' + 'Thanks for following a twiter bot for @infourminutesco' +
-      ' Feel free to follow @infourminutesco where we write a four minute summary of different cryptocurrency protocol and check out our articles at http://infourminutes.co');
+      'Hey ' + '@' + screenName + '! ' + 'Thanks for following a twiter bot for @infourminutesco.' +
+      ' Feel free to follow @infourminutesco, where we write a four minute summary of different cryptocurrency protocol and check out our articles at http://infourminutes.co');
   }
