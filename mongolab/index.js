@@ -28,7 +28,7 @@ function checkDb(userData){
   });
 }
 
-function storeUser(userData){
+function storeUser(userData, callback){
   /*
   Id- userData.id
   screen_name- userData.user.screen_name
@@ -49,7 +49,8 @@ function storeUser(userData){
     if(err){
       console.log(err);
     }else{
-      console.log('user saved in mongolab')
+      console.log('user saved in mongolab');
+      callback();
     }
   })
 

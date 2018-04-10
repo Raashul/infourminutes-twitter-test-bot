@@ -20,8 +20,6 @@ let retweet = () => {
   console.log('the bot is starting');
 
   Twitter.get('search/tweets', params, (err, data) => {
-    console.log('starting search');
-
     if(err){
       console.log(err);
       return;
@@ -49,14 +47,7 @@ let retweet = () => {
 
         if(bool_user_not_in_db === true && bool_tweet_condition === true){
 
-          // let fs = require('fs');
-          // let json = JSON.stringify(data, null, 2);
-          // fs.writeFile("tweet.json", json);
-
           //console.log('storing' +  ' User ' + post.user.screen_name);
-
-          //Store the user into the database
-          mongolab.storeUser(post);
 
           let hashTagsArr = post.entities.hashtags;
           let tweet = '';
@@ -66,14 +57,16 @@ let retweet = () => {
 
             //Can be done in a better way.
             //TODO: make separate file then extract key words from that file
-            if(hashtag.text == 'bitcoin' || hashtag.text == 'Bitcoin'){
+            if(hashtag.text == 'bitcoin' || hashtag.text == 'bitcoin'){
+              console.log('bitcoin selected');
               hashtagUsed  = "Bitcoin";
               tweet_url = 'http://infourminutes.co/whitepaper/bitcoin';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
               break;
             }
 
-            else if (hashtag.text == 'ethereumRR' || hashtag.text == 'EthereumRR'){
+            else if (hashtag.text == 'ethereum' || hashtag.text == 'Ethereum'){
+                console.log('ethereum selected');
               hashtagUsed  = "Ethereum"
               tweet_url = 'http://infourminutes.co/whitepaper/ethereum';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
@@ -82,14 +75,16 @@ let retweet = () => {
             }
 
             else if (hashtag.text == 'ripple' || hashtag.text == 'Ripple'){
-              hashtagUsed  = "ripple"
+                console.log('rippleRR selected');
+              hashtagUsed  = "Ripple"
               tweet_url = 'http://infourminutes.co/whitepaper/ripple';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
               break;
             }
 
             else if (hashtag.text == 'dash' || hashtag.text == 'Dash'){
-              hashtagUsed  = "dash"
+                console.log('dash selected');
+              hashtagUsed  = "Dash"
               tweet_url = 'http://infourminutes.co/whitepaper/dash';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
 
@@ -97,23 +92,25 @@ let retweet = () => {
             }
 
             else if (hashtag.text == 'ipfs' || hashtag.text == 'Ipfs'){
-              hashtagUsed  = "ipfs"
+                console.log('ipfs selected');
+              hashtagUsed  = "Ipfs"
               tweet_url = 'http://infourminutes.co/whitepaper/ipfs';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
 
               break;
             }
-            else{
-              tweet_url = 'http://infourminutes.co/whitepaper'
-              hashtagUsed  = "cryptocurrencies"
-              tweet_url = 'http://infourminutes.co';
-              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
-              break;
-            }
           }
-
           //Post Tweet method
-          postTweet(screen_name, hashtagUsed, tweet_url, tweet);
+
+          if(tweet){
+            //Store the user into the database
+            mongolab.storeUser(post, () => {
+              console.log('sending this tweet');
+              console.log(tweet);
+              //postTweet(screen_name, hashtagUsed, tweet_url, tweet);
+            });
+
+          }
         }
         else{
           console.log('already tweeted this user or did not meet condition');
@@ -130,7 +127,7 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-setInterval(retweet, 1000*60*60*3);
+//setInterval(retweet, 1000*60*60*3);
 //retweet();
 
 
