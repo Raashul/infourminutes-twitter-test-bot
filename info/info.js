@@ -6,6 +6,6 @@ module.exports = {
       q: '#bitcoin OR #ethereum OR #dash OR #ripple OR #ipfs OR #ssb',
       result_type: 'recent',
       lang: 'en',
-      count: 7, //put 100,
+      count: 10, //put 100,
     }
 }
