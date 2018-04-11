@@ -105,9 +105,9 @@ let retweet = () => {
           if(tweet){
             //Store the user into the database
             mongolab.storeUser(post, () => {
-              console.log('sending this tweet');
-              console.log(tweet);
-              //postTweet(screen_name, hashtagUsed, tweet_url, tweet);
+              // console.log('sending this tweet');
+              // console.log(tweet);
+              postTweet(screen_name, hashtagUsed, tweet_url, tweet);
             });
 
           }
@@ -127,8 +127,8 @@ let retweet = () => {
   }
 
 //Run the bot every one hour
-//setInterval(retweet, 1000*60*60*3);
-//retweet();
+setInterval(retweet, 1000*60*60*1);
+
 
 
 //callback function to post tweet
