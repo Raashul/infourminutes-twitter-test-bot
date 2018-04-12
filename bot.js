@@ -27,7 +27,7 @@ let retweet = () => {
     // if there no errors
     else if (!err) {
       let snaps = data.statuses;
-      console.log(snaps.length);
+      //console.log(snaps.length);
 
       let tweet_url = '';
       let tweet = '';

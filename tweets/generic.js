@@ -7,8 +7,8 @@ module.exports.pickGeneric = (hashtag, url, screen_name) => {
 
   if(randomGeneric == 1){
     let tweet = {
-      status: '@' + screen_name + '  We wrote a four minute summary of ' + hashtag + ' in this article- ' + url +
-      '. Feel free to follow @infourminutesco to get a summary of a whitepaper every week.'
+      status: '@' + screen_name + ' ' + hashtag + '  impressed us immensely. Hence, we wrote a summary of the whitepaper here: '
+      + url + '. Feel free to follow @infourminutesco to get a summary of a whitepaper every week.'
     }
     return tweet;
   }

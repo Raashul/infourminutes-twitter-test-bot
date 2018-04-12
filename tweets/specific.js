@@ -8,9 +8,8 @@ module.exports.pickSpecific = (hashtag, url, screen_name) => {
   if(randomSpecific == 1){
 
     let tweet = {
-      status: 'Hey ' + '@' + screen_name + '! We love what ' + hashtag +
-      ' are doing. We are a big fan of decentralized exchanges as well.' +
-      ' We have written a four minute summary of ' + hashtag + ' protocol in this article.' +
+      status: '@' + screen_name + ' We love what ' + hashtag +' are doing.' +
+      ' We have written a four minute summary of ' + hashtag + ' protocol in this article.' + url+
       ' Feel free to follow @infourminutesco.'
     }
     return tweet;
