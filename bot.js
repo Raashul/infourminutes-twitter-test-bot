@@ -129,7 +129,7 @@ let retweet = () => {
 
 //Run the bot every 3 hours
 setInterval(retweet, 1000*60*60*3);
- //retweet();
+//retweet();
 
 
 //callback function to post tweet
