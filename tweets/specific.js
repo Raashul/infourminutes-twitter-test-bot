@@ -10,7 +10,7 @@ module.exports.pickSpecific = (hashtag, url, screen_name) => {
     let tweet = {
       status: '@' + screen_name + ' We love what ' + hashtag +' are doing.' +
       ' We have written a four minute summary of ' + hashtag + ' protocol in this article.' + url+
-      ' Feel free to follow @infourminutesco.'
+      ' .Would love to get your feedback on the content.'
     }
     return tweet;
 
@@ -19,8 +19,8 @@ module.exports.pickSpecific = (hashtag, url, screen_name) => {
   else if(randomSpecific == 2){
     let tweet = {
       status: '@' + screen_name + ' We noticed that you are interested in ' + hashtag +
-      ': We wrote a four minute summary: ' + url +
-       '. Please follow @infourminutesco, where we write a four minute summary of a whitepaper every week.'
+      '. Thought you may find this @infourminutesco summary of the whitepaper interesting. ' +
+        url + '. We are always open to feedback. Would certainly appreciate one coming from you.'
     }
     return tweet;
 
@@ -28,10 +28,11 @@ module.exports.pickSpecific = (hashtag, url, screen_name) => {
 
   else{
     let tweet = {
-      status: '@' + screen_name + ' I saw that you were interested in ' + hashtag +
-      '. We wrote a four minutes summary of ' + hashtag + ' whitepaper. Feel free to check this link out: ' + url +
-      ' and follow us at @infourminutesco'
-    }
+      status: '@' + screen_name + ' Noticed that you have been curious/researching about ' + hashtag +
+      '. Here is our humble attempt at a 4 minute summary of the whitepaper. ' + url +
+      ' It would be awesome to get your advice how @infourminutesco could make the content even better. '
+
+        }
     return tweet;
   }
 
