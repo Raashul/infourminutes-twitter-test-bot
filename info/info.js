@@ -4,7 +4,7 @@ module.exports = {
     MIN_STATUS: 100,
     params: {
       q: '#bitcoin OR #ethereum OR #dash OR #ripple OR #ipfs OR #ssb',
-      result_type: 'popular',
+      result_type: 'recent',
       lang: 'en',
       count: 20, //put 100,
     }
