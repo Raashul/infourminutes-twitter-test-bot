@@ -107,7 +107,7 @@ let retweet = () => {
             }
 
             else if (hashtag.text == 'steem' || hashtag.text == 'Steem'){
-              console.log('dash selected');
+              console.log('steem selected');
               hashtagUsed  = "steem"
               tweet_url = 'http://infourminutes.co/whitepaper/steem';
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
