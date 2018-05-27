@@ -1,3 +1,18 @@
+/**
+ * Copyright: Rashul Rajbhandari 2018
+ * Author: Rashul Rajbhandari (rashul1996@gmail.com)
+ *
+ * @fileOverview: Run Bot
+ * 
+ * Search tweets according to validation/information from info/info.js
+ * Search tweets every 3 hrs
+ * Check if tweets meet the validation criteria 
+ * OR
+ * If user has been tweeted before
+ * 
+ */
+
+
 const Twit = require('twit');
 const config = require('./config');
 
@@ -91,6 +106,16 @@ let retweet = () => {
               break;
             }
 
+            else if (hashtag.text == 'steem' || hashtag.text == 'Steem'){
+              console.log('dash selected');
+              hashtagUsed  = "steem"
+              tweet_url = 'http://infourminutes.co/whitepaper/steem';
+              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
+
+              break;
+            }
+
+
             else if (hashtag.text == 'ipfs' || hashtag.text == 'Ipfs'){
                 console.log('ipfs selected');
               hashtagUsed  = "Ipfs"
@@ -100,8 +125,8 @@ let retweet = () => {
               break;
             }
           }
-          //Post Tweet method
 
+          //Post Tweet method
           if(tweet){
             //console.log('here is tweet');
             //Store the user into the database
