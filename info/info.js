@@ -6,14 +6,16 @@
  * Edit May 2018
  */
 
+ 
+
 module.exports = {
-    MIN_FOLLOWERS: 500,
-    MIN_FRIENDS: 500,
+    MIN_FOLLOWERS: 1000,
+    MIN_FRIENDS: 1000,
     MIN_STATUS: 1000,
     params: {
-      q: '#bitcoin OR #ethereum OR #dash OR #ripple OR #steem OR #ssb',
+      //q: '',
       result_type: 'recent',
       lang: 'en',
-      count: 45, //100 is the max,
+      count: 40, //100 is the max,
     }
 }

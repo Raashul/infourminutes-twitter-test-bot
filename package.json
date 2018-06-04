@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^5.0.4",
     "fs": "0.0.1-security",
     "mongoose": "^5.0.9",
     "nodemon": "^1.17.1",
