@@ -44,14 +44,19 @@ let retweet = (informationParams) => {
     }
     // if there no errors
     else if (!err) {
-      console.log(informationParams);
+
+      // console.log('query params', informationParams);
       let snaps = data.statuses;
 
       let tweet_url = '';
       let tweet = '';
       let hashtagUsed = '';
+      
+      // list of urls
+      const urls = info.urls;
    
       snaps.forEach(async post => {
+
 
         let screen_name = post.user.screen_name;
 
@@ -67,60 +72,19 @@ let retweet = (informationParams) => {
           let hashTagsArr = post.entities.hashtags;
           let tweet = '';
           for(hashtag of hashTagsArr){
-            const hashtagText = hashtag.text;
 
-            //Can be done in a better way.
-            //TODO: make separate file then extract key words from that file
-            if(hashtagText.toLowerCase() == 'bitcoin'){
-              console.log('bitcoin selected');
-              hashtagUsed  = "Bitcoin";
-              tweet_url = 'http://infourminutes.co/whitepaper/bitcoin';
+            let hashtagText = hashtag.text;
+            hashtagText = hashtagText.toLowerCase();
+
+
+            if(urls.hasOwnProperty(hashtagText)){
+              tweet_url = urls[hashtagText];
+              hashtagUsed = hashtagText;
+              console.log(hashtagText, tweet_url);
               tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
               break;
             }
 
-            else if (hashtagText.toLowerCase() == 'ethereum'){
-                console.log('ethereum selected');
-              hashtagUsed  = "Ethereum"
-              tweet_url = 'http://infourminutes.co/whitepaper/ethereum';
-              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
-
-              break;
-            }
-
-            else if (hashtagText.toLowerCase() == 'ripple'){
-                console.log('rippleRR selected');
-              hashtagUsed  = "Ripple"
-              tweet_url = 'http://infourminutes.co/whitepaper/ripple';
-              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
-              break;
-            }
-
-            else if (hashtagText.toLowerCase() == 'dash'){
-                console.log('dash selected');
-              hashtagUsed  = "Dash"
-              tweet_url = 'http://infourminutes.co/whitepaper/dash';
-              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
-
-              break;
-            }
-
-            else if (hashtagText.toLowerCase() == 'steem'){
-              console.log('steem selected');
-              hashtagUsed  = "steem"
-              tweet_url = 'http://infourminutes.co/whitepaper/steem';
-              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
-              break;
-            }
-
-
-            else if (hashtagText.toLowerCase() == 'ipfs'){
-              console.log('ipfs selected');
-              hashtagUsed  = "Ipfs"
-              tweet_url = 'http://infourminutes.co/whitepaper/ipfs';
-              tweet = tweetText.sendTweet(hashtagUsed, tweet_url, screen_name);
-              break;
-            }
           }
 
           //Post Tweet method
@@ -152,6 +116,7 @@ let retweet = (informationParams) => {
 //Every 3 hours
 
 setInterval(startBot, 1000*60*60*3);
+//startBot();
 /*  ----------------- The Bot Runs here -----------*/
 
 

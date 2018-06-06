@@ -17,5 +17,20 @@ module.exports = {
       result_type: 'recent',
       lang: 'en',
       count: 40, //100 is the max,
+    },
+    urls: {
+      bitcoin: 'http://infourminutes.co/whitepaper/bitcoin',
+      ethereum: 'http://infourminutes.co/whitepaper/ethereum',
+      ripple: 'http://infourminutes.co/whitepaper/ripple',
+      dash: 'http://infourminutes.co/dash',
+      ox: 'http://infourminutes.co/ox',
+      bat: 'http://infourminutes.co/bat',
+      golem: 'http://infourminutes.co/golem',
+      hyperledger: 'http://infourminutes.co/hyperledger',
+      ipfs: 'http://infourminutes.co/ipfs',
+      scuttlebutt: 'http://infourminutes.co/scuttlebutt',
+      steem: 'http://infourminutes.co/steem',
+      dat: 'http://infourminutes.co/dat'
     }
 }
+
